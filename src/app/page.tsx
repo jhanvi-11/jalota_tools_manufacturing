@@ -1,17 +1,28 @@
 import Link from "next/link";
 import Image from "next/image";
-import { mockProducts } from "@/data/mockProducts";
+import { getAllProducts, getAllCategories } from "@/lib/products";
 
 export default function HomePage() {
+  const allProducts = getAllProducts();
   // Take the first 3 products as featured products
-  const featuredProducts = mockProducts.slice(0, 3);
+  const featuredProducts = allProducts.slice(0, 3);
 
-  const categories = [
-    { name: "Hand Tools", icon: "construction", path: "/products?category=HAND TOOLS" },
-    { name: "Cutting Tools", icon: "content_cut", path: "/products?category=CUTTING TOOLS" },
-    { name: "Measurement", icon: "straighten", path: "/products?category=MEASURING" },
-    { name: "Power Tools", icon: "electric_bolt", path: "/products?category=POWER ACCESSORIES" },
-  ];
+  const allCategories = getAllCategories();
+  const getIconForCategory = (catName: string) => {
+    const normalized = catName.toLowerCase();
+    if (normalized.includes("screwdriver")) return "construction";
+    if (normalized.includes("chisel")) return "content_cut";
+    if (normalized.includes("hammer")) return "hardware";
+    if (normalized.includes("bar") || normalized.includes("pry")) return "electric_bolt";
+    return "handyman"; // Generic fallback icon
+  };
+
+  const categories = allCategories.map((cat) => ({
+    name: cat.name,
+    icon: getIconForCategory(cat.name),
+    path: `/products?category=${encodeURIComponent(cat.name)}`,
+  }));
+
 
   return (
     <div className="space-y-24 pb-24">
@@ -105,16 +116,27 @@ export default function HomePage() {
         <div className="flex gap-6 overflow-x-auto px-6 sm:px-12 lg:px-24 pb-8 hide-scrollbar snap-x snap-mandatory max-w-7xl mx-auto">
           {featuredProducts.map((product) => (
             <div
-              key={product.id}
+              key={product.slug}
               className="min-w-[280px] sm:min-w-[320px] bg-[#1A1A1A] border border-[#C8A04B]/10 flex flex-col justify-between snap-start group"
             >
               <div>
                 <div className="aspect-square bg-[#000000] p-6 flex items-center justify-center overflow-hidden border-b border-[#C8A04B]/10 relative">
-                  <img
-                    alt={product.name}
-                    className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
-                    src={product.image}
-                  />
+                  {product.images.length > 0 ? (
+                    <img
+                      alt={product.name}
+                      className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+                      src={product.images[0]}
+                    />
+                  ) : (
+                    <div className="w-full h-full flex flex-col items-center justify-center">
+                      <span className="material-symbols-outlined text-6xl text-[#C8A04B]/20">
+                        construction
+                      </span>
+                      <span className="text-[8px] uppercase tracking-widest font-bold text-[#C8A04B]/30 mt-2">
+                        Jalota Tools
+                      </span>
+                    </div>
+                  )}
                   <div className="absolute top-4 left-4 bg-[#C8A04B] text-[#000000] px-2 py-0.5 text-[9px] font-bold tracking-wider uppercase font-heading">
                     {product.category}
                   </div>
@@ -130,7 +152,7 @@ export default function HomePage() {
               </div>
               <div className="p-6 pt-0">
                 <Link
-                  href="/products"
+                  href={`/products/${product.slug}`}
                   className="text-xs font-bold uppercase tracking-widest text-[#C8A04B] hover:text-[#E6C667] inline-flex items-center gap-1 group/btn"
                 >
                   View Details

@@ -35,12 +35,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-1 flex justify-center md:justify-start items-center">
             <Link href="/" className="flex items-center">
-              <svg width="150" height="45" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" className="h-10 w-auto">
-                <path d="M10 10 L30 10 L30 50 L10 50 Z" fill="#FFFFFF" />
-                <path d="M15 15 L25 15 L25 45 L15 45 Z" fill="#C8A04B" />
-                <text x="45" y="42" fontFamily="var(--font-heading)" fontWeight="900" fontSize="28" fill="#FFFFFF" style={{ textTransform: "uppercase", letterSpacing: "1px" }}>Jalota</text>
-                <text x="148" y="42" fontFamily="var(--font-heading)" fontWeight="300" fontSize="28" fill="#C8A04B" style={{ textTransform: "uppercase", letterSpacing: "1px" }}>Tools</text>
-              </svg>
+              <img src="/logo.svg" alt="Jalota Tools" className="h-12 md:h-14 w-auto" />
             </Link>
           </div>
 

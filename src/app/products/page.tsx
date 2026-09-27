@@ -3,24 +3,28 @@
 import { Suspense, useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { mockProducts, Product } from "@/data/mockProducts";
+import { getAllProducts, getAllCategories, generateSlug, type Product } from "@/lib/products";
+
+const allProducts = getAllProducts();
+const allCategories = getAllCategories();
 
 function ProductsContent() {
   const searchParams = useSearchParams();
-  
-  // Available categories
-  const categories = ["ALL", "HAND TOOLS", "CUTTING TOOLS", "MEASURING", "POWER ACCESSORIES"];
-  
+
   // State
   const [selectedCategory, setSelectedCategory] = useState("ALL");
   const [searchQuery, setSearchQuery] = useState("");
-  const [filteredProducts, setFilteredProducts] = useState<Product[]>(mockProducts);
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>(allProducts);
 
   // Sync category with URL search param if present
   useEffect(() => {
     const catParam = searchParams.get("category");
-    if (catParam && categories.includes(catParam.toUpperCase())) {
-      setSelectedCategory(catParam.toUpperCase());
+    if (catParam) {
+      // Try to match by exact case or case-insensitive
+      const match = allCategories.find(
+        (c) => c.name === catParam || c.name.toLowerCase() === catParam.toLowerCase()
+      );
+      setSelectedCategory(match ? match.name : "ALL");
     } else {
       setSelectedCategory("ALL");
     }
@@ -28,12 +32,12 @@ function ProductsContent() {
 
   // Handle filtering logic
   useEffect(() => {
-    let result = mockProducts;
+    let result = allProducts;
 
     // Filter by Category
     if (selectedCategory !== "ALL") {
       result = result.filter(
-        (product) => product.category.toUpperCase() === selectedCategory
+        (product) => product.category === selectedCategory
       );
     }
 
@@ -60,7 +64,7 @@ function ProductsContent() {
             OUR PRODUCTS
           </h1>
           <p className="text-sm sm:text-base text-[#CFCFCF]/80 max-w-2xl leading-relaxed">
-            Precision-engineered instruments for industrial excellence and uncompromising performance.
+            Precision-engineered hand tools for industrial excellence and uncompromising performance.
           </p>
         </div>
       </header>
@@ -70,19 +74,29 @@ function ProductsContent() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-4">
           {/* Categories Scroll Chips */}
           <div className="flex items-center space-x-3 overflow-x-auto hide-scrollbar pb-2 md:pb-0">
-            {categories.map((cat) => {
-              const isActive = selectedCategory === cat;
+            <button
+              onClick={() => setSelectedCategory("ALL")}
+              className={`px-5 py-2 border font-bold text-[10px] tracking-wider uppercase transition-all duration-200 whitespace-nowrap ${
+                selectedCategory === "ALL"
+                  ? "bg-[#C8A04B] border-[#C8A04B] text-[#000000]"
+                  : "bg-transparent border-[#747878] text-[#CFCFCF] hover:border-[#C8A04B] hover:text-[#C8A04B]"
+              }`}
+            >
+              All
+            </button>
+            {allCategories.map((cat) => {
+              const isActive = selectedCategory === cat.name;
               return (
                 <button
-                  key={cat}
-                  onClick={() => setSelectedCategory(cat)}
+                  key={cat.name}
+                  onClick={() => setSelectedCategory(cat.name)}
                   className={`px-5 py-2 border font-bold text-[10px] tracking-wider uppercase transition-all duration-200 whitespace-nowrap ${
                     isActive
                       ? "bg-[#C8A04B] border-[#C8A04B] text-[#000000]"
                       : "bg-transparent border-[#747878] text-[#CFCFCF] hover:border-[#C8A04B] hover:text-[#C8A04B]"
                   }`}
                 >
-                  {cat}
+                  {cat.name}
                 </button>
               );
             })}
@@ -95,7 +109,7 @@ function ProductsContent() {
             </span>
             <input
               type="text"
-              placeholder="SEARCH INSTRUMENTS"
+              placeholder="SEARCH PRODUCTS"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-[#1A1A1A] border border-[#747878] focus:border-[#C8A04B] px-10 py-2.5 text-[11px] font-semibold tracking-wider text-white placeholder-[#747878] outline-none transition-colors"
@@ -120,7 +134,7 @@ function ProductsContent() {
               build_circle
             </span>
             <h3 className="text-xl font-bold uppercase text-white font-heading">
-              No Instruments Found
+              No Products Found
             </h3>
             <p className="text-sm text-[#CFCFCF]/60 mt-2">
               Try adjusting your category filter or search terms.
@@ -129,14 +143,25 @@ function ProductsContent() {
         ) : (
           <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-12 sm:gap-x-8 sm:gap-y-16">
             {filteredProducts.map((product) => (
-              <div key={product.id} className="group flex flex-col justify-between">
+              <div key={product.slug} className="group flex flex-col justify-between">
                 <div>
                   <div className="relative bg-[#1A1A1A] border border-[#C8A04B]/10 aspect-square overflow-hidden mb-6 flex items-center justify-center p-6 sm:p-8">
-                    <img
-                      src={product.image}
-                      alt={product.name}
-                      className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
-                    />
+                    {product.images.length > 0 ? (
+                      <img
+                        src={product.images[0]}
+                        alt={product.name}
+                        className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex flex-col items-center justify-center text-[#747878]">
+                        <span className="material-symbols-outlined text-6xl mb-2 text-[#C8A04B]/20">
+                          construction
+                        </span>
+                        <span className="text-[8px] uppercase tracking-widest font-bold text-[#C8A04B]/30">
+                          Jalota Tools
+                        </span>
+                      </div>
+                    )}
                     <div className="absolute top-4 left-4 bg-[#C8A04B] text-[#000000] px-2 py-0.5 text-[8px] font-bold tracking-wider uppercase font-heading">
                       {product.category}
                     </div>
@@ -149,7 +174,7 @@ function ProductsContent() {
                   </p>
                 </div>
                 <Link
-                  href="#"
+                  href={`/products/${product.slug}`}
                   className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#C8A04B] hover:text-[#E6C667] group/link transition-all"
                 >
                   VIEW DETAILS
@@ -159,21 +184,6 @@ function ProductsContent() {
                 </Link>
               </div>
             ))}
-          </div>
-        )}
-
-        {/* Pagination bar */}
-        {filteredProducts.length > 0 && (
-          <div className="mt-24 border-t border-[#C8A04B]/20 pt-12 flex justify-center items-center gap-6">
-            <button className="w-10 h-10 border border-[#747878] hover:border-[#C8A04B] hover:text-[#C8A04B] flex items-center justify-center transition-colors">
-              <span className="material-symbols-outlined">chevron_left</span>
-            </button>
-            <span className="font-bold text-[10px] sm:text-xs tracking-widest uppercase text-[#CFCFCF]">
-              PAGE 1 OF {Math.max(1, Math.ceil(filteredProducts.length / 8))}
-            </span>
-            <button className="w-10 h-10 border border-[#747878] hover:border-[#C8A04B] hover:text-[#C8A04B] flex items-center justify-center transition-colors">
-              <span className="material-symbols-outlined">chevron_right</span>
-            </button>
           </div>
         )}
       </main>

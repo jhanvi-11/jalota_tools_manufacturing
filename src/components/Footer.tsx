@@ -8,12 +8,7 @@ export default function Footer() {
           {/* Logo & Tagline */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-              <svg width="160" height="48" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 10 L30 10 L30 50 L10 50 Z" fill="#FFFFFF" />
-                <path d="M15 15 L25 15 L25 45 L15 45 Z" fill="#C8A04B" />
-                <text x="45" y="42" fontFamily="var(--font-heading)" fontWeight="900" fontSize="28" fill="#FFFFFF" style={{ textTransform: "uppercase", letterSpacing: "1px" }}>Jalota</text>
-                <text x="148" y="42" fontFamily="var(--font-heading)" fontWeight="300" fontSize="28" fill="#C8A04B" style={{ textTransform: "uppercase", letterSpacing: "1px" }}>Tools</text>
-              </svg>
+              <img src="/logo.svg" alt="Jalota Tools" className="h-12 w-auto" />
             </Link>
             <p className="text-xs sm:text-sm text-[#CFCFCF] leading-relaxed max-w-xs">
               Precision engineering solutions for the industrial world. Built on a foundation of quality and innovation since 1988.
@@ -77,15 +72,15 @@ export default function Footer() {
             <div className="space-y-4 text-xs sm:text-sm text-[#CFCFCF]">
               <div className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-[#C8A04B] text-xl">location_on</span>
-                <span>Plot 44, Industrial Estate, Sector 12</span>
+                <span>Waryana Industrial Complex, 102/1, Leather Complex Rd, Jalandhar, Punjab 144013</span>
               </div>
               <div className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-[#C8A04B] text-xl">call</span>
-                <span>+91 98765 43210</span>
+                <span>+91 7900980096, +91 9464013001</span>
               </div>
               <div className="flex items-center gap-3">
                 <span className="material-symbols-outlined text-[#C8A04B] text-xl">mail</span>
-                <span>info@jalotatools.com</span>
+                <span>jalotatoolsmanufacturing@gmail.com</span>
               </div>
             </div>
             <div className="pt-2">
