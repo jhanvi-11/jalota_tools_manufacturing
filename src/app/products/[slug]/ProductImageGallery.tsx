@@ -17,16 +17,16 @@ export default function ProductImageGallery({
   return (
     <div className="space-y-4">
       {/* Main Image */}
-      <div className="relative bg-[#1A1A1A] border border-[#C8A04B]/10 aspect-square overflow-hidden flex items-center justify-center p-8">
+      <div className="relative bg-[#1A1A1A] border border-[#C8A04B]/10 aspect-square overflow-hidden flex items-center justify-center">
         {hasImages ? (
           <img
             src={images[selectedIndex]}
             alt={`${productName} - Image ${selectedIndex + 1}`}
-            className="w-full h-full object-contain"
+            className="w-full h-full object-cover"
           />
         ) : (
           /* Branded placeholder for products without images */
-          <div className="w-full h-full flex flex-col items-center justify-center gap-6 text-center">
+          <div className="w-full h-full flex flex-col items-center justify-center gap-6 text-center p-8">
             <div className="relative">
               <span className="material-symbols-outlined text-[100px] text-[#C8A04B]/20">
                 construction
@@ -86,7 +86,7 @@ export default function ProductImageGallery({
             <button
               key={i}
               onClick={() => setSelectedIndex(i)}
-              className={`shrink-0 w-20 h-20 border overflow-hidden flex items-center justify-center p-2 bg-[#1A1A1A] transition-all duration-200 ${
+              className={`shrink-0 w-20 h-20 border overflow-hidden flex items-center justify-center bg-[#1A1A1A] transition-all duration-200 ${
                 i === selectedIndex
                   ? "border-[#C8A04B]"
                   : "border-[#C8A04B]/10 hover:border-[#C8A04B]/40"
@@ -96,7 +96,7 @@ export default function ProductImageGallery({
               <img
                 src={img}
                 alt={`${productName} thumbnail ${i + 1}`}
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
               />
             </button>
           ))}

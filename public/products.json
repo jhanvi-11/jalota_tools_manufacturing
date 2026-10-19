@@ -3,7 +3,9 @@
     "name": "Screw Drivers – Flat Tip",
     "category": "Screwdrivers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Flat Tip Screwdrivers, designed for precise tightening and loosening of slotted screws across a wide range of industrial, mechanical, and maintenance applications. Engineered for durability, strength, and accuracy, these screwdrivers provide reliable performance and excellent control during operation. Manufactured from high-grade steel and precision-machined for an accurate fit, our Flat Tip Screwdrivers ensure efficient torque transmission while minimizing the risk of slipping or damaging screw heads. Built for professional use, they are ideal for workshops, assembly lines, maintenance operations, and general repair tasks.",
-    "images": [],
+    "images": [
+      "images/screw_driver_flat_tip.jpeg"
+    ],
     "size table": [],
     "features": [
       "Precision-machined flat tip for accurate screw engagement",
@@ -28,7 +30,9 @@
     "name": "5 Pcs Screwdriver Kit",
     "category": "Screwdrivers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 5 Pcs Screwdriver Kits, designed for convenient and efficient fastening applications in workshops, maintenance operations, and everyday repair tasks. Compact, durable, and easy to carry, this kit contains essential screwdriver bits and accessories, making it an ideal choice for professionals, technicians, and DIY users. Manufactured from high-grade steel and precision-engineered for accuracy and durability, our 5 Pcs Screwdriver Kit ensures secure screw engagement, smooth operation, and long service life. The compact storage case keeps all components organized and readily accessible whenever needed.",
-    "images": [],
+    "images": [
+      "images/5pcs_screw_driver_kit.jpeg"
+    ],
     "size table": [],
     "features": [
       "Compact 5-piece kit for versatile fastening applications.",
@@ -55,7 +59,9 @@
     "name": "Wedge Point Bar",
     "category": "Bars & Pry Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Wedge Point Bars, designed for heavy-duty prying, lifting, aligning, positioning, and demolition applications. Featuring a precision-forged wedge-shaped point, these bars are ideal for penetrating narrow gaps, separating materials, and handling demanding industrial and construction tasks with ease. Manufactured from high-grade forged steel and heat-treated for superior strength and durability, our Wedge Point Bars are engineered to withstand high impact and extreme working conditions. Their robust construction ensures excellent leverage, reliable performance, and long service life, making them an essential tool for professional users.",
-    "images": [],
+    "images": [
+      "images/wedge_point_bar.jpeg"
+    ],
     "size table": [],
     "features": [
       "Precision-forged wedge point for easy penetration and material separation.",
@@ -82,7 +88,9 @@
     "name": "Electrician's Chisel",
     "category": "Chisels",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Electrician's Chisels, specially designed for cutting, chipping, and shaping masonry, concrete, plaster, and wall surfaces during electrical installation work. Engineered for strength, precision, and durability, these chisels are ideal for creating channels, grooves, and openings required for electrical wiring, conduits, and switch box installations. Manufactured from high-grade forged steel and heat-treated for enhanced hardness and wear resistance, our Electrician's Chisels are built to withstand repeated hammering and demanding job site conditions. Their precision-ground cutting edge ensures efficient material removal and accurate working performance.",
-    "images": [],
+    "images": [
+      "images/electrician_chisel.jpeg"
+    ],
     "size table": [],
     "features": [
       "Specially designed for electrical installation and maintenance applications.",
@@ -109,7 +117,9 @@
     "name": "3 Leg Bearing Pullers",
     "category": "Pullers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 3 Leg Bearing Pullers, designed for the safe, efficient, and balanced removal of bearings, gears, pulleys, sprockets, and other press-fitted components. Featuring a three-jaw design, these pullers provide enhanced stability and uniform pulling force, ensuring secure gripping and smooth extraction while minimizing the risk of component damage. Manufactured from high-grade forged steel and precision-engineered for strength and durability, our 3 Leg Bearing Pullers are built to withstand demanding industrial and automotive applications. The adjustable legs offer flexibility for handling a variety of component sizes, making them an essential tool for maintenance professionals and workshops.",
-    "images": [],
+    "images": [
+      "images/3_leg_bearing_puller.jpeg"
+    ],
     "size table": [],
     "features": [
       "Three-leg design provides superior stability and balanced pulling force.",
@@ -138,7 +148,9 @@
     "name": "Striking Screw Driver",
     "category": "Screwdrivers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Striking Screwdrivers, specially designed for heavy-duty fastening and loosening applications where additional impact force is required. Engineered with a reinforced blade and impact-resistant handle, these screwdrivers are capable of withstanding hammer strikes, making them ideal for removing stubborn, rusted, or tightly fastened screws. Manufactured from high-grade steel and precision-crafted for strength and durability, our Striking Screwdrivers deliver excellent torque transmission, reliable performance, and long service life. Built for demanding industrial environments, they are widely used in automotive workshops, machinery maintenance, engineering operations, and repair applications.",
-    "images": [],
+    "images": [
+      "images/striking_screwdriver.jpeg"
+    ],
     "size table": [],
     "features": [
       "Heavy-duty design suitable for hammer striking applications.",
@@ -164,7 +176,9 @@
     "name": "Mason Chisel with Domed Head",
     "category": "Chisels",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Mason Chisels with Domed Head, designed for cutting, shaping, chipping, and dressing bricks, stone, concrete, and masonry materials. Featuring a specially designed domed striking head, these chisels help reduce mushrooming caused by repeated hammer impacts, ensuring enhanced safety, durability, and longer service life. Manufactured from high-grade forged steel and heat-treated for superior hardness and toughness, our Mason Chisels are built to withstand heavy-duty construction and masonry applications. The precision-ground cutting edge provides efficient material removal and accurate working performance, making them an essential tool for professional masons, builders, and contractors.",
-    "images": [],
+    "images": [
+      "/images/mason_chisel_doomed_head.jpeg"
+    ],
     "size table": [],
     "features": [
       "Domed head design helps reduce mushrooming from repeated hammer strikes.",
@@ -193,7 +207,9 @@
     "name": "Manhole Hooks",
     "category": "Hand Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Manhole Hooks, designed for the safe lifting, opening, positioning, and handling of manhole covers, drain covers, inspection covers, and utility access lids. Engineered for strength, durability, and ease of use, these hooks provide a secure grip and excellent leverage, ensuring efficient operation in demanding municipal, construction, and industrial environments. Manufactured from high-grade steel and built to withstand heavy loads, our Manhole Hooks are designed for reliable performance under rigorous working conditions. Their robust construction and ergonomic design make them an essential tool for utility workers, maintenance teams, contractors, and municipal authorities.",
-    "images": [],
+    "images": [
+      "images/manhole_puller.jpeg"
+    ],
     "size table": [],
     "features": [
       "Designed for lifting and handling manhole and utility covers safely.",
@@ -220,7 +236,9 @@
     "name": "9 Pcs Hex Allen Keys Set – Long Pattern",
     "category": "Allen Keys",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 9 Pcs Hex Allen Keys Sets – Long Pattern, designed for efficient tightening and loosening of hex socket screws and bolts in professional, industrial, and maintenance applications. The long-pattern design provides extended reach and enhanced leverage, making it easier to access recessed and hard-to-reach fasteners while ensuring maximum torque transmission. Manufactured from high-grade alloy steel and precision-engineered for superior strength and durability, our Hex Allen Keys offer accurate fitment, reliable performance, and long service life. Supplied as a complete 9-piece set, they cover a wide range of commonly used sizes, making them an essential addition to any toolkit.",
-    "images": [],
+    "images": [
+      "images/9_pcs_hex_allen_keys_set.jpeg"
+    ],
     "size table": [],
     "features": [
       "Complete 9-piece set for versatile fastening applications.",
@@ -249,7 +267,9 @@
     "name": "Nail Puller",
     "category": "Hand Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Nail Pullers, designed for quick and efficient removal of nails, staples, and fasteners from wood, construction materials, and other surfaces. Engineered for strength, durability, and maximum leverage, these tools enable effortless extraction while minimizing damage to the surrounding material. Manufactured from high-grade forged steel and heat-treated for enhanced toughness, our Nail Pullers are built to withstand demanding job site conditions and repeated use. Their precision-designed gripping jaws ensure a secure hold on nails, making them an essential tool for carpenters, construction professionals, and maintenance personnel.",
-    "images": [],
+    "images": [
+      "images/nail_puller.jpeg"
+    ],
     "size table": [],
     "features": [
       "Designed for efficient removal of nails, staples, and fasteners.",
@@ -276,7 +296,9 @@
     "name": "9 Pcs Ball Point Allen Keys Set – Long Pattern",
     "category": "Allen Keys",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 9 Pcs Ball Point Allen Keys Sets – Long Pattern, designed for efficient fastening and loosening of hex socket screws in both straight and angled applications. Featuring precision-engineered ball point ends, these keys allow operation at an angle, providing greater accessibility in confined and hard-to-reach areas where conventional hex keys may be difficult to use. Manufactured from high-grade alloy steel and heat-treated for superior strength and durability, our Long Pattern Ball Point Allen Keys offer extended reach, excellent torque transmission, and reliable performance. Supplied as a complete 9-piece set, they cover a wide range of commonly used sizes, making them an essential tool for professional and industrial users.",
-    "images": [],
+    "images": [
+      "images/9_pcs_allen_keys_set.jpeg"
+    ],
     "size table": [],
     "features": [
       "Complete 9-piece set for versatile fastening applications.",
@@ -305,7 +327,9 @@
     "name": "Claw Bar",
     "category": "Bars & Pry Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Claw Bars, designed for prying, lifting, pulling nails, demolition, and dismantling applications. Engineered for maximum strength and durability, these tools are widely used in construction, carpentry, renovation, and industrial maintenance tasks where high leverage and reliable performance are essential. Manufactured from high-grade forged steel and heat-treated for enhanced toughness, our Claw Bars provide exceptional resistance to bending and wear. The specially designed claw end allows easy nail extraction and material separation, while the sturdy construction ensures dependable performance under demanding working conditions.",
-    "images": [],
+    "images": [
+      "images/claw_bar.jpeg"
+    ],
     "size table": [],
     "features": [
       "Heavy-duty construction for demanding prying and demolition applications.",
@@ -331,38 +355,12 @@
     ]
   },
   {
-    "name": "Ball Point Allen Keys – Long Pattern",
-    "category": "Allen Keys",
-    "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Ball Point Allen Keys – Long Pattern, designed for efficient fastening and loosening of hex socket screws in hard-to-reach and angled applications. Featuring a precision-engineered ball point end, these keys allow operation at an angle, providing greater accessibility and convenience where straight access is restricted. Manufactured from high-grade alloy steel and heat-treated for superior strength and durability, our Long Pattern Ball Point Allen Keys deliver excellent torque transmission, accurate fitment, and long service life. The extended arm design offers increased reach and leverage, making them ideal for professional, industrial, and maintenance applications.",
-    "images": [],
-    "size table": [],
-    "features": [
-      "Ball point end allows operation at an angle for improved accessibility.",
-      "Long pattern design provides greater reach and enhanced leverage.",
-      "Precision-machined hex ends for accurate fit and secure engagement.",
-      "Manufactured from high-quality alloy steel for superior strength and durability.",
-      "Hardened and heat-treated for enhanced wear resistance and long service life.",
-      "Ideal for accessing recessed and difficult-to-reach fasteners.",
-      "Excellent torque transmission for efficient fastening operations.",
-      "Corrosion-resistant finish for extended durability.",
-      "Suitable for professional, industrial, and workshop applications."
-    ],
-    "apllications": [
-      "Automotive servicing",
-      "machinery maintenance",
-      "engineering workshops",
-      "industrial assembly",
-      "equipment installation",
-      "furniture manufacturing",
-      "bicycle maintenance",
-      "and general repair operations."
-    ]
-  },
-  {
     "name": "Stubby Reversible Screw Driver with Green Handle",
     "category": "Screwdrivers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Stubby Reversible Screw Drivers with Green Handle, designed for efficient fastening and loosening operations in confined and hard-to-reach spaces. Featuring a compact stubby design and a reversible blade mechanism, these screwdrivers offer the convenience of multiple tip options in a single tool, making them ideal for maintenance, repair, and assembly applications. Manufactured from high-grade steel and engineered for durability, our Stubby Reversible Screw Drivers provide secure screw engagement, excellent torque transmission, and reliable performance. The ergonomically designed green handle ensures a comfortable grip and enhanced control, even during prolonged use.",
-    "images": [],
+    "images": [
+      "images/stubby_screwdriver_green_handle.jpeg"
+    ],
     "size table": [],
     "features": [
       "Compact stubby design for working in restricted spaces.",
@@ -390,7 +388,9 @@
     "name": "9 Pcs Hex Allen Keys Set – Short Pattern",
     "category": "Allen Keys",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 9 Pcs Hex Allen Keys Sets – Short Pattern, designed for efficient tightening and loosening of hex socket screws and bolts across a wide range of industrial, automotive, and maintenance applications. The compact short-pattern design provides excellent control and accessibility in confined spaces, making these sets an essential addition to any professional toolkit. Manufactured from high-grade alloy steel and precision-engineered for strength and durability, our Hex Allen Keys offer accurate fitment, reliable torque transmission, and long service life. Supplied as a complete 9-piece set, they cover a range of commonly used sizes for maximum versatility and convenience.",
-    "images": [],
+    "images": [
+      "images/9_pcs_allen_keys_short_pattern.jpeg"
+    ],
     "size table": [],
     "features": [
       "Complete 9-piece set for a wide range of fastening applications.",
@@ -418,7 +418,9 @@
     "name": "T-Handle Hex Allen Keys – Long Pattern",
     "category": "Allen Keys",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality T-Handle Hex Allen Keys – Long Pattern, designed for high-torque fastening and loosening of hex socket screws and bolts. Featuring an ergonomic T-handle and extended shaft, these tools provide superior grip, enhanced leverage, and improved access to recessed fasteners, making them ideal for demanding industrial and maintenance applications. Manufactured from high-grade alloy steel and precision-engineered for strength and durability, our T-Handle Hex Allen Keys ensure accurate fitment, efficient torque transmission, and long service life. The ergonomic handle design allows comfortable operation while reducing user fatigue during prolonged use.",
-    "images": [],
+    "images": [
+      "images/t-handle_hex_allen_key.jpeg"
+    ],
     "size table": [],
     "features": [
       "Ergonomic T-handle design for comfortable grip and maximum control.",
@@ -446,7 +448,9 @@
     "name": "Roll Head Pry Bar",
     "category": "Bars & Pry Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Roll Head Pry Bars, designed for heavy-duty prying, lifting, aligning, positioning, and demolition applications. Featuring a specially designed roll head that provides a superior fulcrum point, these pry bars deliver maximum leverage with reduced effort, making them ideal for construction, industrial maintenance, and engineering operations. Manufactured from high-grade forged steel and heat-treated for enhanced strength and durability, our Roll Head Pry Bars are built to withstand demanding working conditions while delivering reliable performance. Their robust construction and precision-engineered design ensure excellent load-bearing capability and long service life.",
-    "images": [],
+    "images": [
+      "/images/roll_head_pry_bar.jpeg"
+    ],
     "size table": [],
     "features": [
       "Roll head design provides superior leverage and prying efficiency.",
@@ -473,7 +477,9 @@
     "name": "Molding Pry Bar",
     "category": "Bars & Pry Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Molding Pry Bars, specially designed for the safe removal of moldings, trims, panels, baseboards, and other fitted components without causing unnecessary damage. Engineered for precision, strength, and durability, these pry bars provide excellent leverage and control, making them ideal for carpentry, renovation, construction, and maintenance applications. Manufactured from high-grade forged steel and heat-treated for enhanced toughness, our Molding Pry Bars are built to withstand demanding working conditions while ensuring reliable performance. Their thin, precision-shaped ends allow easy insertion behind moldings and trim pieces, enabling efficient removal with minimal surface damage.",
-    "images": [],
+    "images": [
+      "/images/molding_pry_bar.jpeg"
+    ],
     "size table": [],
     "features": [
       "Specially designed for removing moldings, trims, and panels.",
@@ -500,7 +506,9 @@
     "name": "Screw Drivers – Two in One",
     "category": "Screwdrivers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Two in One Screwdrivers, designed to provide versatility and convenience in a single tool. Featuring interchangeable or dual-purpose tips, these screwdrivers are ideal for handling both slotted and Phillips screws, making them a practical solution for a wide range of fastening applications. Manufactured from high-grade steel and precision-engineered for durability and performance, our Two in One Screwdrivers ensure secure screw engagement, efficient torque transmission, and long service life. Their compact and multifunctional design makes them an essential tool for professionals, technicians, and maintenance personnel.",
-    "images": [],
+    "images": [
+      "images/screw_driver_two_in_one.jpeg"
+    ],
     "size table": [],
     "features": [
       "Dual-purpose design for multiple screw-driving applications.",
@@ -528,7 +536,9 @@
     "name": "Crowbar with Chisel",
     "category": "Chisels",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Crowbars with Chisel Ends, designed for heavy-duty prying, lifting, breaking, demolition, and excavation applications. Featuring a robust crowbar body with a precision-forged chisel end, these tools provide exceptional leverage and impact resistance, making them ideal for construction, industrial maintenance, and engineering operations. Manufactured from high-grade forged steel and heat-treated for enhanced strength and durability, our Crowbars with Chisel Ends are built to withstand the toughest working conditions. The chisel end is specially designed for breaking, splitting, and removing materials, while the crowbar design ensures maximum leverage and efficient operation.",
-    "images": [],
+    "images": [
+      "/images/crowbar_with_chisel.jpeg"
+    ],
     "size table": [],
     "features": [
       "Heavy-duty design for prying, lifting, breaking, and demolition applications.",
@@ -556,7 +566,9 @@
     "name": "7 Pcs Temper Star Allen Keys Set – Short Pattern",
     "category": "Allen Keys",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 7 Pcs Temper Star Allen Keys Sets – Short Pattern, designed for precise and efficient tightening and loosening of Torx® (Star) fasteners in automotive, engineering, industrial, and maintenance applications. Manufactured from specially tempered alloy steel, these keys offer enhanced strength, toughness, and durability, ensuring reliable performance under demanding working conditions. The compact short-pattern design provides excellent control and accessibility in confined spaces, while the precision-machined star profiles ensure accurate fitment and secure engagement with fasteners. Supplied as a complete 7-piece set, these keys are ideal for professional users seeking dependable and long-lasting tools.",
-    "images": [],
+    "images": [
+      "images/7pcs_temper_star_allen_key_.jpeg"
+    ],
     "size table": [],
     "features": [
       "Complete 7-piece set for a wide range of Torx fastening applications.",
@@ -584,7 +596,9 @@
     "name": "7 Pcs Star Allen Keys Set – Short Pattern",
     "category": "Allen Keys",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 7 Pcs Star Allen Keys Sets – Short Pattern, designed for efficient tightening and loosening of Torx® (Star) fasteners in automotive, engineering, industrial, and maintenance applications. The compact short-pattern design provides excellent control and accessibility in confined spaces, making these sets ideal for professional and workshop use. Manufactured from high-grade alloy steel and precision-engineered for strength and durability, our Star Allen Keys ensure accurate fitment, reliable torque transmission, and long service life. Supplied as a complete 7-piece set, they cover a range of commonly used Torx sizes for versatile fastening applications.",
-    "images": [],
+    "images": [
+      "images/7pcs_allen_key_short.jpeg"
+    ],
     "size table": [],
     "features": [
       "Complete 7-piece set for a wide range of Torx fastening applications.",
@@ -612,7 +626,9 @@
     "name": "Mason's Peg",
     "category": "Hand Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Mason's Pegs, designed for marking, alignment, layout, and positioning applications in construction, masonry, surveying, and civil engineering projects. Engineered for strength and durability, these pegs provide a secure anchoring point for string lines, ensuring accurate measurements and straight alignment during construction work. Manufactured from high-grade steel and precision-crafted for reliable performance, our Mason's Pegs are built to withstand repeated hammering and harsh site conditions. Their sturdy construction and pointed design allow easy penetration into soil and other ground surfaces, making them an essential tool for professional builders and contractors.",
-    "images": [],
+    "images": [
+      "images/mason_peg.jpeg"
+    ],
     "size table": [],
     "features": [
       "Designed for accurate marking, alignment, and layout applications.",
@@ -640,7 +656,9 @@
     "name": "9 Pcs Set Extra Long Allen Key (Ball Point & Star)",
     "category": "Allen Keys",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 9 Pcs Extra Long Allen Key Sets (Ball Point & Star), designed for professional fastening applications requiring extended reach, superior access, and reliable performance. These sets include extra-long keys that provide increased leverage and easy access to deeply recessed or hard-to-reach fasteners. Available in both Ball Point Hex and Star (Torx) profiles, they are ideal for a wide range of industrial, automotive, and maintenance applications. Manufactured from high-grade alloy steel and heat-treated for enhanced strength and durability, our Extra Long Allen Keys ensure precise fitment, efficient torque transmission, and long service life. The ball point design allows operation at an angle, while the extra-long construction improves accessibility and user convenience.",
-    "images": [],
+    "images": [
+      "images/9_pcs_allen_key.jpeg"
+    ],
     "size table": [],
     "features": [
       "Complete 9-piece set for versatile fastening applications.",
@@ -670,7 +688,9 @@
     "name": "Gooseneck Wrecking Bar",
     "category": "Bars & Pry Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Gooseneck Wrecking Bars, designed for heavy-duty prying, lifting, nail pulling, demolition, and dismantling applications. Featuring a distinctive gooseneck-shaped claw, these bars provide exceptional leverage and easy access for removing embedded nails, separating materials, and performing demanding demolition tasks. Manufactured from high-grade forged steel and heat-treated for enhanced strength and durability, our Gooseneck Wrecking Bars are built to withstand rigorous construction and industrial environments. Their robust design ensures reliable performance, maximum leverage, and long service life, making them an essential tool for professionals in construction, carpentry, and maintenance work.",
-    "images": [],
+    "images": [
+      "images/gooseneck_chisel_bar.jpeg"
+    ],
     "size table": [],
     "features": [
       "Gooseneck claw design for efficient nail pulling and prying applications.",
@@ -698,7 +718,9 @@
     "name": "Bolster Chisel",
     "category": "Chisels",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Bolster Chisels, designed for cutting, shaping, and removing bricks, masonry, concrete, stone, and other construction materials. Engineered for strength, durability, and precision, these chisels are widely used in construction, demolition, renovation, and masonry applications where heavy-duty cutting performance is required. Manufactured from high-grade forged steel and heat-treated for enhanced hardness and wear resistance, our Bolster Chisels are built to withstand repeated hammering and demanding job site conditions. The wide cutting edge ensures efficient material removal and clean cutting performance, making them an essential tool for professional builders and contractors.",
-    "images": [],
+    "images": [
+      "images/chiselBar.jpeg"
+    ],
     "size table": [],
     "features": [
       "Wide cutting edge for efficient cutting and material removal.",
@@ -726,7 +748,9 @@
     "name": "2 Leg Bearing Pullers",
     "category": "Pullers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 2 Leg Bearing Pullers, designed for the safe and efficient removal of bearings, gears, pulleys, sprockets, and other press-fitted components. Featuring a two-jaw design, these pullers provide a secure grip and balanced pulling force, ensuring smooth extraction without causing damage to the shaft or surrounding components. Manufactured from high-grade forged steel and precision-engineered for strength and durability, our 2 Leg Bearing Pullers deliver reliable performance in demanding industrial, automotive, and maintenance applications. The adjustable arms allow versatility across a range of component sizes, making them an essential tool for professional workshops and maintenance operations.",
-    "images": [],
+    "images": [
+      "images/2_leg_bearing_puller.jpeg"
+    ],
     "size table": [],
     "features": [
       "Two-leg design provides a secure grip and balanced pulling force.",
@@ -753,7 +777,9 @@
     "name": "8 Pcs Screwdriver Kit",
     "category": "Screwdrivers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 8 Pcs Screwdriver Kits, designed to provide versatility, convenience, and reliable performance for a wide range of fastening applications. This compact kit includes a durable handle, interchangeable Phillips and flat blade bits, a poker, and an extension rod, making it an ideal solution for professional technicians, electricians, mechanics, and DIY users. Manufactured from high-grade steel and precision-engineered for durability, our 8 Pcs Screwdriver Kit ensures secure screw engagement, efficient torque transmission, and long service life. The compact storage design keeps all components organized and readily accessible for use in workshops, maintenance operations, and field service applications.",
-    "images": [],
+    "images": [
+      "images/8pcs_screw_driver_kit.jpeg"
+    ],
     "size table": [],
     "features": [
       "Complete 8-piece kit for versatile fastening applications.",
@@ -781,7 +807,9 @@
     "name": "C-Clamp (Ductile Iron) – NEO",
     "category": "Clamps",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality C-Clamps (Ductile Iron) – NEO, designed for heavy-duty clamping, holding, and positioning applications in industrial, fabrication, woodworking, welding, and maintenance operations. Manufactured from high-strength ductile iron, these clamps offer superior toughness, excellent load-bearing capacity, and enhanced resistance to breakage compared to conventional cast iron clamps. Engineered for durability and reliable performance, our NEO Series C-Clamps feature a precision-threaded spindle that ensures smooth operation and powerful clamping force. Built to withstand demanding working conditions, they are ideal for professional workshops, manufacturing units, and construction projects.",
-    "images": [],
+    "images": [
+      "images/c_clamp_ductile_iron.jpeg"
+    ],
     "size table": [],
     "features": [
       "Manufactured from high-strength ductile iron for superior durability and toughness.",
@@ -808,7 +836,9 @@
     "name": "Mini G Clamps",
     "category": "Clamps",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Mini G Clamps, designed for precision clamping and light-duty holding applications. Compact, lightweight, and easy to handle, these clamps are ideal for small-scale woodworking, hobby projects, craft work, model making, electronics assembly, and general workshop applications where accurate positioning and secure holding are required. Manufactured from high-quality steel and engineered for durability, our Mini G Clamps provide reliable clamping force while maintaining ease of use. Their compact design allows them to be used in confined spaces, making them an essential tool for professionals, craftsmen, and DIY users alike.",
-    "images": [],
+    "images": [
+      "images/mini_g_clamp.jpeg"
+    ],
     "size table": [],
     "features": [
       "Compact and lightweight design for precision clamping applications.",
@@ -835,7 +865,9 @@
     "name": "Claw Hammer – Wooden Handle",
     "category": "Hammers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Claw Hammers with Wooden Handles, designed for efficient hammering, nail driving, and nail removal applications. Featuring a hardened striking face and a curved claw for easy nail extraction, these hammers are an essential tool for carpentry, woodworking, construction, and general maintenance work. Manufactured from high-grade steel and fitted with a durable wooden handle, our Claw Hammers provide excellent balance, comfortable grip, and effective shock absorption for enhanced user comfort during prolonged use. Built for strength and reliability, they deliver consistent performance in demanding working environments.",
-    "images": [],
+    "images": [
+      "images/claw_hammer.jpeg"
+    ],
     "size table": [],
     "features": [
       "Hardened steel head for durability and long service life",
@@ -861,7 +893,9 @@
     "name": "Quick Release Wood Bar Clamp",
     "category": "Clamps",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Quick Release Wood Bar Clamps, designed for fast, secure, and efficient clamping in woodworking, furniture manufacturing, assembly, and general workshop applications. Featuring a quick-release mechanism, these clamps allow rapid adjustment and effortless repositioning, significantly improving productivity and ease of use. Manufactured from high-quality steel and engineered for durability, our Quick Release Wood Bar Clamps provide strong and consistent clamping pressure while ensuring accurate alignment of workpieces. The robust bar construction and ergonomic handle design make them ideal for both professional craftsmen and industrial users.",
-    "images": [],
+    "images": [
+      "images/quick_release_wood_bar_clamp.jpeg"
+    ],
     "size table": [],
     "features": [
       "Quick-release mechanism for fast adjustment and easy operation.",
@@ -888,7 +922,9 @@
     "name": "3 in 1 Multifunctional Plier",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 3 in 1 Multifunctional Pliers, designed to combine gripping, wire cutting, and wire stripping functions in a single versatile tool. Engineered for efficiency, durability, and convenience, these pliers help professionals perform multiple tasks with ease, reducing the need to carry separate tools. Manufactured from high-grade alloy steel and precision-engineered for reliable performance, our 3 in 1 Multifunctional Pliers feature hardened cutting edges, precision stripping slots, and strong gripping jaws. Ideal for electricians, technicians, maintenance professionals, and industrial users, they provide excellent control, durability, and long service life.",
-    "images": [],
+    "images": [
+      "images/multifunctional_plier.jpeg"
+    ],
     "size table": [],
     "features": [
       "Combines gripping, wire cutting, and wire stripping functions in one tool.",
@@ -916,7 +952,9 @@
     "name": "Bolt Cutter",
     "category": "Cutters",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Bolt Cutters, designed for powerful cutting of bolts, chains, rods, wires, rivets, padlocks, and other metal materials. Engineered for maximum cutting efficiency and durability, these cutters deliver high cutting force with minimal effort, making them ideal for industrial, construction, engineering, and maintenance applications. Manufactured from high-grade alloy steel and equipped with precision-hardened cutting jaws, our Bolt Cutters provide exceptional cutting performance and long service life. The long handles offer superior leverage, while the ergonomic grips ensure comfortable and controlled operation during demanding tasks.",
-    "images": [],
+    "images": [
+      "images/bolt_cutter.jpeg"
+    ],
     "size table": [],
     "features": [
       "Designed for cutting bolts, chains, rods, wires, rivets, and similar materials.",
@@ -944,7 +982,9 @@
     "name": "C-Clamp Deep Throat (Ductile Iron) – NEO",
     "category": "Clamps",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Deep Throat C-Clamps (Ductile Iron) – NEO, specially designed for clamping applications where extended reach is required beyond the capability of standard C-clamps. Manufactured from high-strength ductile iron, these clamps provide exceptional toughness, superior load-bearing capacity, and reliable performance for demanding industrial and workshop operations. Featuring an extended deep throat design and a precision-threaded spindle, our NEO Deep Throat C-Clamps allow secure clamping of workpieces farther from the edge, making them ideal for fabrication, welding, woodworking, metalworking, and assembly applications. Built for strength and durability, they ensure consistent clamping pressure and long service life.",
-    "images": [],
+    "images": [
+      "images/c_clamp_deep_throat.jpeg"
+    ],
     "size table": [],
     "features": [
       "Deep throat design provides extended reach for specialized clamping applications.",
@@ -972,7 +1012,9 @@
     "name": "PVC Pipe Cutter",
     "category": "Cutters",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality PVC Pipe Cutters, designed for fast, clean, and precise cutting of PVC, CPVC, PPR, PE, and other plastic pipes. Engineered for efficiency, durability, and ease of use, these cutters provide smooth and burr-free cuts, making them ideal for plumbing, irrigation, construction, and maintenance applications. Manufactured from high-grade steel and fitted with a precision-ground hardened blade, our PVC Pipe Cutters deliver excellent cutting performance with minimal effort. The ergonomic handle design ensures comfortable operation and enhanced control, making them suitable for both professional and industrial use.",
-    "images": [],
+    "images": [
+      "images/pvc_pipe_cutter.jpeg"
+    ],
     "size table": [],
     "features": [
       "Designed for clean and precise cutting of PVC and plastic pipes.",
@@ -999,7 +1041,9 @@
     "name": "Bolt Cutters – Chrome Molybdenum Steel",
     "category": "Cutters",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Bolt Cutters – Chrome Molybdenum Steel, engineered for superior cutting performance, exceptional durability, and long service life. Manufactured using high-strength Chrome Molybdenum (Cr-Mo) Steel, these bolt cutters are designed to cut through hard metals, bolts, chains, rods, rivets, padlocks, and wire with maximum efficiency and minimal effort. Featuring precision-hardened cutting jaws and a high-leverage mechanism, our Chrome Molybdenum Steel Bolt Cutters deliver outstanding cutting power even in demanding industrial environments. The robust construction and ergonomic handle design ensure reliable performance, enhanced control, and reduced operator fatigue.",
-    "images": [],
+    "images": [
+      "images/bolt_cutter_chrome_molybdenum_steel.jpeg"
+    ],
     "size table": [],
     "features": [
       "Manufactured from premium Chrome Molybdenum (Cr-Mo) Steel for superior strength and durability.",
@@ -1029,7 +1073,9 @@
     "name": "T Bar Clamp",
     "category": "Clamps",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality T Bar Clamps, designed for secure holding, clamping, and positioning of workpieces during woodworking, fabrication, assembly, welding, and maintenance operations. Featuring a strong T-section bar construction, these clamps provide superior rigidity and clamping force, ensuring accurate alignment and stable work holding even under heavy-duty conditions. Manufactured from high-quality steel and precision-engineered for durability, our T Bar Clamps are built to withstand demanding industrial and workshop environments. The adjustable sliding head and precision-threaded spindle allow quick adjustment and powerful clamping action, making them an essential tool for professional craftsmen and industrial users.",
-    "images": [],
+    "images": [
+      "images/t_bar_clamp.jpeg"
+    ],
     "size table": [],
     "features": [
       "Heavy-duty T-section bar construction for maximum strength and rigidity.",
@@ -1058,7 +1104,9 @@
     "name": "3 Way C-Clamp (Ductile Iron) – NEO",
     "category": "Clamps",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality 3 Way C-Clamps (Ductile Iron) – NEO, designed for holding and clamping workpieces at multiple angles during welding, fabrication, assembly, and maintenance operations. Manufactured from high-strength ductile iron, these clamps offer exceptional durability, superior load-bearing capacity, and reliable performance in demanding industrial environments. Featuring a unique three-way clamping design, our NEO 3 Way C-Clamps enable secure positioning of components at right angles and other configurations, making them ideal for frame fabrication, welding setups, metalworking, and woodworking applications. Precision-threaded spindles ensure smooth operation and consistent clamping pressure for accurate and stable work holding.",
-    "images": [],
+    "images": [
+      "images/c_clamp_3_way.jpeg"
+    ],
     "size table": [],
     "features": [
       "Unique three-way design allows simultaneous clamping of multiple workpieces.",
@@ -1086,7 +1134,9 @@
     "name": "Pruning Shears – Curved & Straight Jaw",
     "category": "Hand Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Pruning Shears with Curved & Straight Jaws, designed for precise cutting, trimming, and pruning of plants, shrubs, branches, flowers, and horticultural crops. Engineered for clean and efficient cutting, these shears are ideal for gardening, landscaping, nursery work, agriculture, and professional horticultural applications. Manufactured from high-grade steel and precision-crafted for durability, our Pruning Shears feature sharp, hardened blades that deliver smooth cutting performance with minimal effort. Available in both Curved Jaw and Straight Jaw designs, they provide versatility for different pruning and trimming requirements while ensuring user comfort and long service life.",
-    "images": [],
+    "images": [
+      "images/pruning_shear.jpeg"
+    ],
     "size table": [],
     "features": [
       "Available in Curved Jaw and Straight Jaw patterns for versatile cutting applications.",
@@ -1114,7 +1164,9 @@
     "name": "Aviation Snip",
     "category": "Cutters",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Aviation Snips, designed for precise cutting of sheet metal, aluminum, vinyl, plastic, wire mesh, and other thin materials. Engineered for strength, accuracy, and ease of use, these snips provide clean cuts with minimal effort, making them an essential tool for fabrication, construction, HVAC, roofing, and maintenance applications. Manufactured from high-grade alloy steel and equipped with hardened cutting blades, our Aviation Snips deliver exceptional cutting performance and long service life. Available in Left Cut, Right Cut, and Straight Cut patterns, they offer versatility for a wide range of cutting requirements in professional and industrial environments.",
-    "images": [],
+    "images": [
+      "images/aviation_ship.jpeg"
+    ],
     "size table": [],
     "features": [
       "Designed for precise cutting of sheet metal and other thin materials.",
@@ -1142,7 +1194,9 @@
     "name": "G Clamp (Standard)",
     "category": "Clamps",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Standard G Clamps, designed for secure holding, clamping, and positioning of workpieces during fabrication, woodworking, welding, assembly, and maintenance operations. Engineered for strength, durability, and reliable performance, these clamps provide firm and consistent clamping pressure, ensuring stability and accuracy during work. Manufactured from high-quality steel and precision-engineered for demanding industrial applications, our Standard G Clamps feature a robust frame and a hardened spindle for smooth operation and long service life. Widely used across workshops, construction sites, engineering units, and manufacturing facilities, they are an essential tool for professional and industrial users.",
-    "images": [],
+    "images": [
+      "images/g_clamp.png"
+    ],
     "size table": [],
     "features": [
       "Strong and durable frame construction for heavy-duty clamping applications.",
@@ -1169,7 +1223,9 @@
     "name": "Tin Cutter",
     "category": "Cutters",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Tin Cutters, designed for precise cutting of tin sheets, sheet metal, aluminum, light-gauge steel, and other thin materials. Engineered for strength, accuracy, and durability, these cutters provide clean and efficient cuts, making them an essential tool for fabrication, construction, HVAC, roofing, and maintenance applications. Manufactured from high-grade alloy steel and fitted with precision-hardened cutting blades, our Tin Cutters deliver superior cutting performance with minimal effort. Their ergonomic handle design ensures comfortable operation and excellent control, allowing users to perform cutting tasks efficiently and safely.",
-    "images": [],
+    "images": [
+      "images/tin_cutter.jpeg"
+    ],
     "size table": [],
     "features": [
       "Designed for precise cutting of tin sheets, sheet metal, and thin metallic materials.",
@@ -1196,7 +1252,9 @@
     "name": "Claw Hammer – Metal Handle",
     "category": "Hammers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Claw Hammers with Metal Handles, designed for heavy-duty hammering, nail driving, and nail removal applications. Featuring a hardened steel head with a precision-engineered claw, these hammers deliver exceptional strength, durability, and performance for professional and industrial use. Manufactured from high-grade steel and equipped with a robust metal handle, our Claw Hammers offer superior durability, excellent balance, and reliable performance under demanding working conditions. The ergonomic grip ensures comfortable handling and enhanced control, making them ideal for prolonged use in construction, carpentry, and maintenance applications.",
-    "images": [],
+    "images": [
+      "images/claw_hammer_metal_handle.jpeg"
+    ],
     "size table": [],
     "features": [
       "Hardened steel head for maximum durability and impact resistance",
@@ -1222,7 +1280,9 @@
     "name": "Ball Peen Hammers – American Type & Cross Peen Hammers",
     "category": "Hammers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Ball Peen Hammers – American Type & Cross Peen Hammers, engineered for precision striking, metal shaping, riveting, and fabrication applications. Manufactured from high-grade forged steel and heat-treated for enhanced durability, these hammers deliver exceptional strength, balance, and performance in demanding industrial environments. Our American Type Ball Peen Hammers feature a rounded peen for shaping and forming metal, while Cross Peen Hammers are designed for controlled striking in confined spaces, making them ideal for metalworking, engineering, and maintenance tasks. Built for professional use, these hammers provide excellent impact resistance, reliability, and long service life.",
-    "images": [],
+    "images": [
+      "images/ball_peen_hammers_american_type_cross_peen_hammers.jpeg"
+    ],
     "size table": [],
     "features": [
       "Manufactured from high-quality forged steel",
@@ -1249,7 +1309,9 @@
     "name": "Sledge Hammer Head",
     "category": "Hammers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Sledge Hammer Heads, engineered for heavy-duty striking, demolition, forging, and industrial applications. Manufactured from high-grade forged steel and heat-treated for superior hardness and durability, our hammer heads are designed to deliver maximum impact force while withstanding rigorous working conditions. Built for strength, balance, and long service life, these Sledge Hammer Heads are ideal for replacement purposes or custom handle assembly. Widely used in construction, metalworking, mining, engineering, and industrial maintenance, they provide reliable performance in the most demanding environments.",
-    "images": [],
+    "images": [
+      "images/sledge_hammer_without_handle.jpeg"
+    ],
     "size table": [],
     "features": [
       "Manufactured from high-quality forged steel",
@@ -1275,7 +1337,9 @@
     "name": "Machinist Hammer with Wooden Handle",
     "category": "Hammers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Machinist Hammers with Wooden Handles, designed for precision striking, metalworking, assembly, and maintenance applications. Manufactured from high-grade forged steel and heat-treated for enhanced strength and durability, these hammers deliver accurate blows and reliable performance in demanding workshop and industrial environments. Fitted with a durable wooden handle, our Machinist Hammers provide excellent balance, comfortable grip, and effective shock absorption, ensuring greater control and reduced user fatigue during extended use. Ideal for machinists, fitters, engineers, and maintenance professionals, these hammers are built to withstand rigorous daily use.",
-    "images": [],
+    "images": [
+      "images/machinist_hammer_with_wodden_handle.jpeg"
+    ],
     "size table": [],
     "features": [
       "High-quality forged steel head for superior strength and durability",
@@ -1301,7 +1365,9 @@
     "name": "Sledge Hammer with Fiberglass Handle",
     "category": "Hammers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Sledge Hammers with Fiberglass Handles, designed for heavy-duty striking, demolition, construction, and industrial applications. Manufactured from high-grade forged steel and heat-treated for superior strength and durability, these hammers deliver maximum impact force and reliable performance in the toughest working conditions. Equipped with a high-strength fiberglass handle, our Sledge Hammers offer excellent shock absorption, reduced vibration, and enhanced user comfort. The ergonomic grip ensures better control and minimizes fatigue during prolonged use, making them an ideal choice for professional and industrial users.",
-    "images": [],
+    "images": [
+      "images/sledge_hammer_with_fiberglass_handle.jpeg"
+    ],
     "size table": [],
     "features": [
       "High-quality forged steel head for maximum strength and durability",
@@ -1327,7 +1393,9 @@
     "name": "Ball Peen Hammer – Cross Peen with Fiberglass Handle",
     "category": "Hammers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Cross Peen Ball Peen Hammers with Fiberglass Handles, engineered for precision striking, shaping, riveting, and metalworking applications. Manufactured from high-grade forged steel and heat-treated for superior strength and durability, these hammers are designed to deliver accurate impact and reliable performance in demanding industrial environments. Equipped with a high-strength fiberglass handle, our Cross Peen Hammers provide excellent shock absorption, reduced vibration, and enhanced user comfort. The cross peen design allows precise striking in confined spaces and along narrow surfaces, making it ideal for fabrication, engineering, and maintenance work.",
-    "images": [],
+    "images": [
+      "images/ball_peen_hammer_fibreglass_handle.jpeg"
+    ],
     "size table": [],
     "features": [
       "High-quality forged steel head for maximum strength and durability",
@@ -1353,7 +1421,9 @@
     "name": "Plastic Mallet Hammers",
     "category": "Hammers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Plastic Mallet Hammers, designed for applications requiring controlled impact without damaging the work surface. Featuring durable plastic striking faces, these mallets deliver effective force while minimizing marks, dents, and surface damage, making them ideal for assembly, woodworking, sheet metal work, and maintenance tasks. Manufactured from high-quality materials and engineered for durability, our Plastic Mallet Hammers provide excellent balance, comfortable handling, and reliable performance. They are widely used in automotive workshops, fabrication units, engineering industries, furniture manufacturing, and general maintenance operations where non-marring impact is essential.",
-    "images": [],
+    "images": [
+      "images/plastic_mallet_hammers.jpeg"
+    ],
     "size table": [],
     "features": [
       "Durable plastic faces for non-marring striking applications",
@@ -1379,7 +1449,9 @@
     "name": "Camp Axe",
     "category": "Axes",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Camp Axes, designed for chopping, cutting, splitting, and outdoor utility tasks. Engineered for strength, balance, and durability, these axes are ideal for camping, trekking, forestry work, gardening, and general outdoor applications. Their compact and versatile design makes them easy to carry while delivering powerful cutting performance. Manufactured from high-grade forged steel and precision-crafted for long-lasting reliability, our Camp Axes feature a sharp cutting edge and a sturdy handle for maximum control and efficiency. Built to withstand demanding outdoor conditions, they are trusted by campers, outdoor enthusiasts, and professionals alike.",
-    "images": [],
+    "images": [
+      "images/camp_axe.jpeg"
+    ],
     "size table": [],
     "features": [
       "High-quality forged steel head for superior strength and durability",
@@ -1405,7 +1477,9 @@
     "name": "Single Bit Axe",
     "category": "Axes",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Single Bit Axes, designed for efficient chopping, cutting, splitting, and forestry applications. Featuring a single sharpened cutting edge, these axes provide powerful cutting performance, excellent balance, and precise control, making them ideal for professional and industrial use. Manufactured from high-grade forged steel and heat-treated for enhanced strength and durability, our Single Bit Axes are built to withstand demanding working conditions. Whether used in forestry, agriculture, landscaping, construction, or general outdoor tasks, they deliver reliable performance and long service life.",
-    "images": [],
+    "images": [
+      "images/single_bit_axe.jpeg"
+    ],
     "size table": [],
     "features": [
       "Single sharpened cutting edge for efficient chopping and cutting",
@@ -1431,7 +1505,9 @@
     "name": "Steel Tubular Axe",
     "category": "Axes",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Steel Tubular Axes, designed for powerful cutting, chopping, splitting, and outdoor utility applications. Featuring a high-strength forged steel head and a durable steel tubular handle, these axes offer exceptional strength, balance, and reliability for demanding professional and industrial use. Engineered for superior performance, our Steel Tubular Axes are built to withstand heavy impact and rigorous working conditions. The ergonomic grip on the tubular handle ensures better control, reduced slippage, and comfortable operation, making them ideal for forestry, agriculture, construction, landscaping, and general maintenance tasks.",
-    "images": [],
+    "images": [
+      "images/steel_tubular_axe.jpeg"
+    ],
     "size table": [],
     "features": [
       "High-quality forged steel head for superior cutting performance",
@@ -1457,7 +1533,9 @@
     "name": "Premium Bill Hook",
     "category": "Cutting & Agricultural Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Bill Hooks, designed for efficient cutting, pruning, clearing, and agricultural applications. Crafted from high-grade steel and precision-engineered for durability, our Premium Bill Hooks provide exceptional cutting performance, strength, and reliability in demanding working environments. Featuring a curved blade design with a sharp cutting edge, these tools are ideal for trimming branches, cutting shrubs, clearing vegetation, harvesting crops, and various farming tasks. Built for professional and industrial use, our Premium Bill Hooks offer excellent balance, comfortable handling, and long service life.",
-    "images": [],
+    "images": [
+      "images/premium_bill_hook.jpeg"
+    ],
     "size table": [],
     "features": [
       "High-quality steel blade for superior cutting performance",
@@ -1484,7 +1562,9 @@
     "name": "Screw Drivers – Phillips Tip",
     "category": "Screwdrivers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Phillips Tip Screwdrivers, designed for precise tightening and loosening of cross-head screws in industrial, automotive, electrical, and maintenance applications. Engineered for strength, durability, and accuracy, these screwdrivers ensure secure engagement with Phillips screws, providing efficient torque transfer and reducing the risk of cam-out or screw damage. Manufactured from high-grade steel and precision-machined for an accurate fit, our Phillips Tip Screwdrivers deliver reliable performance and long service life even under demanding working conditions. Their ergonomic handle design offers a comfortable grip and enhanced control for professional users.",
-    "images": [],
+    "images": [
+      "images/screw_drivers_philip_tip.jpeg"
+    ],
     "size table": [],
     "features": [
       "Precision-machined Phillips tip for accurate screw engagement",
@@ -1510,7 +1590,9 @@
     "name": "Screw Drivers – Electrical Pattern",
     "category": "Screwdrivers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply high-quality Electrical Pattern Screwdrivers, engineered for precision, durability, and dependable performance in electrical and maintenance applications. Designed for working with electrical fittings, terminals, switches, sockets, and control panels, these screwdrivers provide excellent grip, control, and fastening efficiency. Manufactured from premium-grade steel and precision-machined for accurate tip fitment, our Electrical Pattern Screwdrivers ensure secure engagement with screws while delivering efficient torque transmission. Built to withstand demanding working environments, they are widely used by electricians, technicians, maintenance professionals, and industrial users.",
-    "images": [],
+    "images": [
+      "images/screw_drivr_electrical_pattern.jpeg"
+    ],
     "size table": [],
     "features": [
       "Specially designed for electrical installation and maintenance work.",
@@ -1534,37 +1616,12 @@
     ]
   },
   {
-    "name": "Hex Allen Keys – Short Pattern",
-    "category": "Allen Keys",
-    "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Hex Allen Keys – Short Pattern, designed for efficient tightening and loosening of hex socket screws and bolts. Featuring a compact L-shaped design, these keys provide excellent leverage and easy access in confined spaces, making them an essential tool for industrial, automotive, engineering, and maintenance applications. Manufactured from high-grade alloy steel and precision-engineered for strength and durability, our Short Pattern Hex Allen Keys ensure accurate fitment, reliable torque transmission, and long service life. Their compact design makes them convenient for carrying and ideal for applications where space is limited.",
-    "images": [],
-    "size table": [],
-    "features": [
-      "Short pattern design for easy use in confined and restricted spaces.",
-      "Precision-machined hex ends for accurate fit and secure engagement.",
-      "Manufactured from high-quality alloy steel for superior strength and durability.",
-      "Hardened and heat-treated for enhanced wear resistance.",
-      "Provides excellent torque transmission and reliable performance.",
-      "Compact and lightweight design for convenient handling.",
-      "Corrosion-resistant finish for extended service life.",
-      "Suitable for professional, industrial, and workshop applications."
-    ],
-    "apllications": [
-      "Automotive servicing",
-      "machinery maintenance",
-      "engineering workshops",
-      "industrial assembly",
-      "equipment installation",
-      "furniture assembly",
-      "bicycle maintenance",
-      "and general repair operations."
-    ]
-  },
-  {
     "name": "Pipe Clamp – Clutch Type",
     "category": "Clamps",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Pipe Clamps – Clutch Type, designed for versatile and heavy-duty clamping applications in woodworking, fabrication, assembly, and maintenance operations. Featuring a clutch mechanism for quick adjustment and secure locking, these clamps provide strong and reliable holding power while accommodating various pipe lengths to suit different project requirements. Manufactured from high-quality steel and precision-engineered for durability, our Clutch Type Pipe Clamps offer excellent clamping force, easy operation, and long service life. Their adjustable design makes them ideal for handling large workpieces and custom clamping setups in professional workshops and industrial environments.",
-    "images": [],
+    "images": [
+      "images/pipe_clamp_clutch_type.jpeg"
+    ],
     "size table": [],
     "features": [
       "Clutch-type mechanism for quick adjustment and secure locking.",
@@ -1591,7 +1648,9 @@
     "name": "Double End Open Jaw Spanner",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply high-quality Double End Open Jaw Spanners designed for precision, strength, and durability. Crafted from premium-grade steel and manufactured using advanced production processes, our spanners provide a secure grip and accurate fit on nuts and bolts. The double open-end design offers versatility by accommodating two different sizes in a single tool, making it an essential choice for professional and industrial applications. Built to withstand demanding working conditions, our Double End Open Jaw Spanners are widely used in automotive workshops, engineering industries, maintenance operations, construction projects, and general mechanical applications. Each spanner is engineered to deliver reliable performance, long service life, and ease of use.",
-    "images": [],
+    "images": [
+      "images/double_ended_jaw_spanner.jpeg"
+    ],
     "size table": [],
     "features": [
       "Manufactured from high-quality steel",
@@ -1614,7 +1673,9 @@
     "name": "Flare Nut Spanner",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Flare Nut Spanners designed for secure gripping and efficient tightening of flare nuts and tube fittings. Engineered from high-grade steel, these spanners feature a specially designed jaw that provides greater contact with the fastener compared to standard open-end spanners, reducing the risk of slipping and damage. Our Flare Nut Spanners are widely used in automotive, hydraulic, pneumatic, refrigeration, air-conditioning, and industrial maintenance applications where precision and reliability are essential. Manufactured to meet demanding industry standards, they deliver excellent strength, durability, and long-lasting performance.",
-    "images": [],
+    "images": [
+      "images/flare_nut.jpeg"
+    ],
     "size table": [],
     "features": [
       "Manufactured from high-quality steel",
@@ -1639,7 +1700,9 @@
     "name": "Bi-Hexagonal Ring Spanners – Shallow Offset",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply high-quality Bi-Hexagonal Ring Spanners – Shallow Offset, engineered for maximum grip, strength, and precision in fastening applications. Featuring a 12-point bi-hexagonal ring profile and a shallow offset design, these spanners provide excellent access to nuts and bolts while ensuring secure engagement and efficient torque transmission. Manufactured from premium-grade steel and finished for enhanced durability, our Bi-Hexagonal Ring Spanners are ideal for automotive, engineering, industrial, and maintenance applications. The shallow offset allows easier access in restricted working areas while minimizing damage to fasteners and improving user comfort.",
-    "images": [],
+    "images": [
+      "images/bihexagonal_shallow.jpeg"
+    ],
     "size table": [],
     "features": [
       "Precision-engineered bi-hexagonal ring profile",
@@ -1662,7 +1725,9 @@
     "name": "Bi-Hexagonal Ring Spanners – Deep Offset",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Bi-Hexagonal Ring Spanners – Deep Offset, designed to provide superior access and performance in challenging fastening applications. Featuring a precision-engineered 12-point bi-hexagonal ring profile and a deep offset design, these spanners allow easy operation around protruding studs, recessed fasteners, and hard-to-reach areas while ensuring a secure grip and efficient torque transfer. Manufactured from high-grade steel and finished for enhanced durability, our Deep Offset Ring Spanners are built to withstand demanding industrial environments. They are widely used in automotive, engineering, maintenance, construction, and heavy-duty workshop applications where reliability and precision are essential.",
-    "images": [],
+    "images": [
+      "images/bihexagonal_deep.jpeg"
+    ],
     "size table": [],
     "features": [
       "Precision-crafted bi-hexagonal (12-point) ring profile",
@@ -1686,7 +1751,9 @@
     "name": "Wheel Spanners – Heavy Duty – Phosphate Finish",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply high-performance Heavy Duty Wheel Spanners with Phosphate Finish, engineered for strength, durability, and reliable performance. Designed for efficient tightening and loosening of wheel nuts and bolts, these spanners are manufactured from premium-grade steel to withstand high torque applications and demanding working conditions. The phosphate finish provides enhanced resistance against corrosion and wear while offering a non-reflective, professional appearance. Built for durability and ease of use, our Heavy Duty Wheel Spanners are widely used in automotive workshops, garages, transport fleets, tyre service centers, and industrial maintenance operations.",
-    "images": [],
+    "images": [
+      "images/wheel_spanners_heavy_duty_phosphate_finish.jpeg"
+    ],
     "size table": [],
     "features": [
       "Manufactured from high-quality heavy-duty steel",
@@ -1710,7 +1777,9 @@
     "name": "Ratchet Spanners",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Ratchet Spanners designed to deliver speed, convenience, and precision in fastening applications. Featuring an integrated ratcheting mechanism, these spanners allow continuous tightening or loosening without removing and repositioning the tool, significantly improving efficiency and reducing working time. Manufactured from high-grade steel and engineered for durability, our Ratchet Spanners provide excellent torque transmission, reliable performance, and long service life. They are ideal for automotive, industrial, engineering, maintenance, and assembly applications where quick and efficient fastening is essential.",
-    "images": [],
+    "images": [
+      "images/ratchet_spanner.jpeg"
+    ],
     "size table": [],
     "features": [
       "Smooth and efficient ratcheting mechanism",
@@ -1734,7 +1803,9 @@
     "name": "Combination Spanners – Recessed Panel",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply high-quality Combination Spanners – Recessed Panel, designed for superior performance, durability, and ease of use. Featuring an open-end jaw on one side and a bi-hexagonal ring end on the other, these spanners offer the versatility of two tools in one. The recessed panel design provides a lightweight yet strong construction while enhancing grip and handling comfort during operation. Manufactured from premium-grade steel and precision-engineered for accurate fitment, our Combination Spanners ensure efficient torque transfer and secure engagement with nuts and bolts. They are widely used in automotive, engineering, industrial maintenance, construction, and workshop applications.",
-    "images": [],
+    "images": [
+      "images/combination_spanner_recessed.jpeg"
+    ],
     "size table": [],
     "features": [
       "Open-end and ring-end combination design",
@@ -1759,7 +1830,9 @@
     "name": "Combination Spanners – Elliptical Panel",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Combination Spanners – Elliptical Panel, engineered for strength, precision, and user comfort. Featuring an open-end jaw on one side and a bi-hexagonal ring end on the other, these spanners provide versatile fastening solutions for a wide range of industrial and mechanical applications. The elliptical panel design offers an ergonomic grip, balanced weight distribution, and enhanced durability for efficient operation. Manufactured from high-grade steel and precision-finished for accurate fitment, our Combination Spanners ensure secure engagement with nuts and bolts while delivering excellent torque transmission. Built to withstand demanding working environments, they are widely used in automotive, engineering, maintenance, and construction industries.",
-    "images": [],
+    "images": [
+      "images/combination_spanner_elliptical.jpeg"
+    ],
     "size table": [],
     "features": [
       "Open-end and ring-end combination design",
@@ -1784,7 +1857,9 @@
     "name": "Stubby Wrench – Metric & SAE",
     "category": "Wrenches",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply high-quality Stubby Wrenches – Metric & SAE, specially designed for working in confined and hard-to-reach spaces where standard-length wrenches cannot be used effectively. Their compact design provides excellent accessibility while maintaining the strength and durability required for demanding fastening applications. Manufactured from premium-grade steel and precision-engineered for accurate fitment, our Stubby Wrenches offer secure engagement with fasteners, minimizing slippage and ensuring efficient torque transfer. Available in both Metric and SAE sizes, these wrenches are ideal for automotive, industrial, mechanical, and maintenance applications.",
-    "images": [],
+    "images": [
+      "images/stuby_wrench_matric_sae.jpeg"
+    ],
     "size table": [],
     "features": [
       "Compact stubby design for restricted work areas",
@@ -1809,7 +1884,9 @@
     "name": "Single Open End Spanners – Big Sizes",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply robust Single Open End Spanners – Big Sizes, designed for heavy-duty fastening applications in industrial, construction, and engineering environments. Featuring a single precision-machined open jaw, these spanners provide a secure grip on large nuts and bolts, ensuring efficient torque transmission and reliable performance under demanding working conditions. Manufactured from premium-grade steel and engineered for maximum strength and durability, our Big Size Single Open End Spanners are ideal for applications requiring high torque and dependable operation. Built to withstand rigorous industrial use, they are widely utilized in heavy machinery maintenance, fabrication, construction, power plants, and mechanical workshops.",
-    "images": [],
+    "images": [
+      "images/single_open_end_spanner.jpeg"
+    ],
     "size table": [],
     "features": [
       "Single open-end design for easy access to large fasteners",
@@ -1833,7 +1910,9 @@
     "name": "Slogging Spanners – Open End & Ring End",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply heavy-duty Slogging Spanners – Open End & Ring End, specifically engineered for high-torque fastening and loosening applications in demanding industrial environments. Designed to withstand hammering force, these spanners feature a robust striking block that allows impact from a hammer, enabling the tightening or loosening of large, stubborn, or heavily tightened fasteners with ease. Manufactured from premium-grade forged steel and precision-machined for maximum strength and durability, our Slogging Spanners are ideal for use in industries such as construction, mining, oil & gas, power generation, shipbuilding, steel plants, and heavy engineering. Available in both Open End and Ring End configurations, they provide reliable performance under the toughest working conditions.",
-    "images": [],
+    "images": [
+      "images/slogging_spanners_open_ring_end_crv.jpeg"
+    ],
     "size table": [],
     "features": [
       "Available in Open End and Ring End designs",
@@ -1860,7 +1939,9 @@
     "name": "Tubular Box Spanners – Heavy Duty",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Heavy Duty Tubular Box Spanners designed for efficient fastening and loosening of nuts and bolts in deep, recessed, and hard-to-reach locations. Featuring a tubular construction with precision-formed box ends, these spanners provide excellent grip, enhanced torque transmission, and reliable performance in demanding industrial applications. Manufactured from high-quality steel and engineered for strength and durability, our Heavy Duty Tubular Box Spanners are ideal for automotive, engineering, maintenance, construction, agricultural, and industrial use. Their lightweight yet robust design allows easy handling while ensuring long service life under rigorous working conditions.",
-    "images": [],
+    "images": [
+      "images/tubular_box_spanner_heavy_duty.jpeg"
+    ],
     "size table": [],
     "features": [
       "Heavy-duty tubular construction for superior strength",
@@ -1885,7 +1966,9 @@
     "name": "C-Type Half Moon Wrench Ring Spanner",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality C-Type Half Moon Wrench Ring Spanners, specially designed for accessing nuts and bolts located in confined, obstructed, or hard-to-reach areas. The distinctive half-moon (C-shaped) profile allows the spanner to reach around pipes, tubes, and other components while maintaining a secure grip on fasteners. Manufactured from high-grade steel and precision-engineered for durability and accuracy, our C-Type Half Moon Ring Spanners provide excellent torque transmission, reliable performance, and long service life. These spanners are widely used in automotive, hydraulic, pneumatic, industrial maintenance, and engineering applications where conventional spanners cannot be easily used.",
-    "images": [],
+    "images": [
+      "images/c_type_half_moon_wrench_ring_spanner.jpeg"
+    ],
     "size table": [],
     "features": [
       "Unique C-type half-moon design for restricted access areas",
@@ -1910,7 +1993,9 @@
     "name": "S-Type Wrench Ring Spanner",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality S-Type Wrench Ring Spanners, specially designed for accessing fasteners located in confined, obstructed, and difficult-to-reach areas. The unique S-shaped profile allows the spanner to work around pipes, tubes, and other obstructions, providing improved accessibility where conventional spanners may not fit. Manufactured from high-grade steel and precision-engineered for strength and durability, our S-Type Ring Spanners ensure secure engagement with nuts and bolts while delivering excellent torque transmission. Built to withstand demanding industrial environments, these spanners are widely used in automotive, engineering, maintenance, hydraulic, and industrial applications.",
-    "images": [],
+    "images": [
+      "images/s_type_wrench_ring_spanner.jpeg"
+    ],
     "size table": [],
     "features": [
       "Unique S-shaped design for improved access around obstructions",
@@ -1935,7 +2020,9 @@
     "name": "Cross Wheel Spanners – Chrome Plated",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Cross Wheel Spanners – Chrome Plated, designed for efficient wheel nut tightening and loosening in automotive and industrial applications. Featuring a cross-shaped design with multiple socket sizes, these spanners provide excellent leverage and balanced force distribution, making wheel maintenance quicker, easier, and more effective. Manufactured from high-quality steel and finished with durable chrome plating, our Cross Wheel Spanners offer superior strength, corrosion resistance, and long service life. Engineered for dependable performance, they are widely used in garages, workshops, tyre service centers, transport fleets, and roadside maintenance operations.",
-    "images": [],
+    "images": [
+      "images/cross_wheel_spanner_chrome_plated.jpeg"
+    ],
     "size table": [],
     "features": [
       "Cross-shaped design for maximum leverage and ease of use",
@@ -1961,7 +2048,9 @@
     "name": "L-Type Spanners – With or Without Lever",
     "category": "Spanners",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply high-quality L-Type Spanners – With or Without Lever, designed for efficient fastening and loosening of nuts and bolts in demanding industrial and automotive applications. The L-shaped design provides enhanced reach and leverage, making it ideal for working in confined spaces and on hard-to-access fasteners. Manufactured from premium-grade steel and precision-engineered for strength and durability, our L-Type Spanners ensure a secure grip, excellent torque transmission, and reliable performance. Available in both with lever and without lever configurations, these spanners are suitable for a wide range of maintenance, assembly, and repair operations.",
-    "images": [],
+    "images": [
+      "images/l_type_spanners.jpeg"
+    ],
     "size table": [],
     "features": [
       "L-shaped design for improved reach and leverage",
@@ -1986,7 +2075,9 @@
     "name": "Pipe Wrenches – Stillson Type",
     "category": "Wrenches",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Stillson Type Pipe Wrenches, engineered for powerful gripping and turning of pipes, tubes, and round fittings. Designed with hardened serrated jaws and a self-tightening mechanism, these wrenches provide a firm, non-slip grip, making them ideal for heavy-duty plumbing, maintenance, and industrial applications. Manufactured from high-grade steel and built for maximum strength and durability, our Stillson Type Pipe Wrenches are capable of handling demanding working conditions while delivering reliable performance and long service life. Widely used by professionals across plumbing, construction, oil & gas, and engineering industries, these wrenches ensure efficient operation and superior torque transmission.",
-    "images": [],
+    "images": [
+      "images/pipe_wrenches _stillson _ype.jpeg"
+    ],
     "size table": [],
     "features": [
       "Traditional Stillson pattern design for powerful gripping action",
@@ -2011,7 +2102,9 @@
     "name": "Pipe Wrenches – Rigid Type",
     "category": "Wrenches",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply high-performance Rigid Type Pipe Wrenches, designed for heavy-duty gripping and turning of pipes, tubes, and threaded fittings. Featuring a robust one-piece frame construction and hardened serrated jaws, these wrenches provide exceptional strength, stability, and gripping power for demanding industrial and plumbing applications. Manufactured from premium-grade steel and engineered for durability, our Rigid Type Pipe Wrenches ensure reliable performance under high-torque conditions. The adjustable jaw mechanism allows quick adaptation to different pipe sizes, making them an essential tool for professionals in plumbing, construction, maintenance, and industrial operations.",
-    "images": [],
+    "images": [
+      "images/pipe_wrench_rigid_type.jpeg"
+    ],
     "size table": [],
     "features": [
       "Heavy-duty rigid frame construction for maximum strength",
@@ -2037,7 +2130,9 @@
     "name": "Water Pump Plier – Box Joint Type",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Water Pump Pliers – Box Joint Type, designed for superior gripping, holding, and turning of pipes, fittings, fasteners, and irregular-shaped objects. Featuring a strong box joint construction, these pliers offer enhanced stability, durability, and precise jaw alignment, ensuring reliable performance even under heavy-duty working conditions. Manufactured from high-grade steel and engineered for long-lasting service, our Water Pump Pliers provide adjustable jaw positions to accommodate a wide range of workpiece sizes. Widely used in plumbing, automotive, maintenance, construction, and industrial applications, they deliver excellent grip, control, and versatility for professional users.",
-    "images": [],
+    "images": [
+      "images/water_pump_plie_box_joint_type.jpeg"
+    ],
     "size table": [],
     "features": [
       "Robust box joint construction for added strength and stability",
@@ -2062,7 +2157,9 @@
     "name": "Water Pump Plier – Slip Joint Type",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply high-quality Water Pump Pliers – Slip Joint Type, designed for versatile gripping, holding, and turning applications across a wide range of industries. Featuring a slip joint adjustment mechanism, these pliers allow quick and easy jaw size adjustments to accommodate different pipe diameters, fittings, fasteners, and irregular-shaped objects. Manufactured from premium-grade steel and engineered for strength and durability, our Slip Joint Water Pump Pliers provide a secure grip, smooth operation, and reliable performance under demanding working conditions. They are widely used in plumbing, automotive, maintenance, construction, and industrial applications where flexibility and efficiency are essential.",
-    "images": [],
+    "images": [
+      "images/water_pump_plier_slip_joint_type.jpeg"
+    ],
     "size table": [],
     "features": [
       "Slip joint mechanism for quick and easy jaw adjustment",
@@ -2087,7 +2184,9 @@
     "name": "Adjustable Wrenches – Phosphate Finish",
     "category": "Wrenches",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Adjustable Wrenches – Phosphate Finish, engineered for versatility, durability, and reliable performance. Designed with a precision-adjustable jaw mechanism, these wrenches can accommodate a wide range of nut and bolt sizes, making them an essential tool for professional and industrial applications. Manufactured from high-grade steel and finished with a durable phosphate coating, our Adjustable Wrenches offer enhanced resistance to corrosion, wear, and harsh working conditions. The smooth adjustment mechanism ensures accurate jaw positioning and a secure grip, delivering efficient torque transmission and dependable operation.",
-    "images": [],
+    "images": [
+      "images/adjustable_wrenhes_phosphate_finish.jpeg"
+    ],
     "size table": [],
     "features": [
       "Precision-adjustable jaw for multiple fastener sizes",
@@ -2112,7 +2211,9 @@
     "name": "Adjustable Wrenches – Fully Polished Chrome Plated",
     "category": "Wrenches",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Adjustable Wrenches – Fully Polished Chrome Plated, designed to deliver versatility, precision, and long-lasting performance. Featuring a smooth adjustable jaw mechanism, these wrenches can accommodate a wide range of nut and bolt sizes, making them an indispensable tool for professional, industrial, and maintenance applications. Manufactured from high-grade steel and finished with a fully polished chrome-plated coating, our Adjustable Wrenches offer superior corrosion resistance, enhanced durability, and an attractive professional appearance. Precision-engineered for accurate fitment and reliable operation, they provide excellent grip and efficient torque transmission for demanding fastening tasks.",
-    "images": [],
+    "images": [
+      "images/adjustable_wrenches_fully_polished_chrome_plated.jpeg"
+    ],
     "size table": [],
     "features": [
       "Precision-adjustable jaw for multiple fastener sizes",
@@ -2137,7 +2238,9 @@
     "name": "Water Pump Plier – Channel Type",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Water Pump Pliers – Channel Type, designed for maximum versatility, gripping power, and durability. Featuring a multi-position channel adjustment mechanism, these pliers allow quick and precise jaw adjustments to accommodate a wide range of pipe sizes, fittings, fasteners, and irregular-shaped workpieces. Manufactured from high-grade steel and engineered for demanding industrial applications, our Channel Type Water Pump Pliers provide a secure, non-slip grip and excellent control during operation. Their robust construction and ergonomic design make them ideal for plumbing, automotive, maintenance, construction, and engineering applications.",
-    "images": [],
+    "images": [
+      "images/water_pump_plier_channel_type.jpeg"
+    ],
     "size table": [],
     "features": [
       "Channel-type adjustment mechanism for multiple jaw positions",
@@ -2163,7 +2266,9 @@
     "name": "Chain Pipe Wrench",
     "category": "Wrenches",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply heavy-duty Chain Pipe Wrenches designed for gripping, holding, and turning large pipes, tubes, and irregular-shaped objects with maximum efficiency. Featuring a durable chain mechanism that securely wraps around the workpiece, these wrenches provide a powerful, non-slip grip, making them ideal for applications where conventional pipe wrenches may not be suitable. Manufactured from premium-grade steel and engineered for strength and durability, our Chain Pipe Wrenches are built to withstand demanding industrial environments. They are widely used in pipeline installation, maintenance, construction, oil & gas, shipbuilding, and heavy engineering applications requiring high torque and reliable performance.",
-    "images": [],
+    "images": [
+      "images/chain_pipe_wrench.jpeg"
+    ],
     "size table": [],
     "features": [
       "Heavy-duty chain design for secure gripping of large pipes and fittings",
@@ -2189,7 +2294,9 @@
     "name": "Combination Pliers",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Combination Pliers, designed to perform multiple tasks including gripping, holding, bending, twisting, and cutting. Built for versatility and durability, these pliers are an essential tool for professionals and DIY users across a wide range of industries. Manufactured from high-grade steel and precision-engineered for superior performance, our Combination Pliers feature serrated jaws for a secure grip and hardened cutting edges for efficient wire cutting. Designed to withstand demanding working conditions, they offer excellent strength, reliability, and long service life.",
-    "images": [],
+    "images": [
+      "images/combination_plier.jpeg"
+    ],
     "size table": [],
     "features": [
       "Multi-purpose tool for gripping, cutting, bending, and twisting",
@@ -2214,7 +2321,9 @@
     "name": "Side Cutting Plier",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Side Cutting Pliers, designed for precise cutting of wires, cables, and other materials in electrical, industrial, and maintenance applications. Engineered for accuracy and durability, these pliers feature hardened cutting edges that deliver clean and efficient cuts with minimal effort. Manufactured from high-grade steel and built to withstand demanding working conditions, our Side Cutting Pliers offer excellent strength, cutting performance, and long service life. Their ergonomic design ensures comfortable handling and improved control, making them an essential tool for professionals and technicians.",
-    "images": [],
+    "images": [
+      "images/side_cutting_plier.jpeg"
+    ],
     "size table": [],
     "features": [
       "Precision-hardened cutting edges for clean and accurate cuts",
@@ -2239,7 +2348,9 @@
     "name": "Long Nose Plier",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Long Nose Pliers, designed for precision gripping, bending, holding, and cutting tasks in confined and hard-to-reach areas. Featuring long, tapered jaws, these pliers provide excellent control and accessibility, making them ideal for detailed work where accuracy is essential. Manufactured from high-grade steel and precision-engineered for durability and performance, our Long Nose Pliers offer a secure grip and reliable operation under demanding working conditions. Equipped with hardened cutting edges and finely serrated jaws, they are widely used in electrical, electronics, automotive, maintenance, and industrial applications.",
-    "images": [],
+    "images": [
+      "images/long_nose_plier.jpeg"
+    ],
     "size table": [],
     "features": [
       "Long, tapered jaws for access to confined spaces",
@@ -2264,7 +2375,9 @@
     "name": "Circlip Plier – Internal & External Bent",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Circlip Pliers – Internal & External Bent, designed for the installation and removal of internal and external circlips in confined and difficult-to-access locations. Featuring bent tips for improved accessibility, these pliers provide precise control and secure engagement with retaining rings, ensuring efficient and damage-free operation. Manufactured from high-grade steel and engineered for durability, our Bent Circlip Pliers offer excellent strength, precision, and long service life. Widely used in automotive, engineering, machinery maintenance, and industrial assembly applications, they are an essential tool for handling circlips with accuracy and ease.",
-    "images": [],
+    "images": [
+      "images/circlip_plier_internal_extrenal_bent.jpeg"
+    ],
     "size table": [],
     "features": [
       "Designed for both internal and external circlip applications",
@@ -2289,7 +2402,9 @@
     "name": "Circlip Plier – Internal & External Straight",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Circlip Pliers – Internal & External Straight, designed for the precise installation and removal of internal and external circlips in a wide range of mechanical and industrial applications. Featuring straight precision-machined tips, these pliers ensure secure engagement with retaining rings, allowing efficient and accurate operation while minimizing the risk of damage. Manufactured from high-grade steel and engineered for strength and durability, our Straight Circlip Pliers provide reliable performance, excellent control, and long service life. They are widely used in automotive, engineering, machinery maintenance, bearing assembly, and industrial applications where precision is essential.",
-    "images": [],
+    "images": [
+      "images/circlip_pier_internal_external_staright.jpeg"
+    ],
     "size table": [],
     "features": [
       "Suitable for both internal and external circlip applications",
@@ -2314,7 +2429,9 @@
     "name": "Wire Stripper",
     "category": "Hand Tools",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Wire Strippers, designed for precise and efficient removal of insulation from electrical wires without damaging the conductor. Engineered for accuracy, durability, and ease of use, these tools help ensure clean stripping and improved productivity in electrical and maintenance applications. Manufactured from high-grade steel and fitted with precision-cut stripping edges, our Wire Strippers provide smooth operation, reliable performance, and long service life. Widely used by electricians, technicians, maintenance professionals, and industrial workers, they are ideal for handling a variety of wire sizes with accuracy and efficiency.",
-    "images": [],
+    "images": [
+      "images/wire_stripper.jpeg"
+    ],
     "size table": [],
     "features": [
       "Precision stripping edges for clean and accurate insulation removal",
@@ -2339,7 +2456,9 @@
     "name": "C-Clamp Plier",
     "category": "Clamps",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply high-quality C-Clamp Pliers, designed for gripping, clamping, and holding workpieces securely during fabrication, welding, assembly, and maintenance operations. Featuring a robust C-clamp design, these pliers provide strong holding force and reliable performance, making them ideal for both industrial and workshop applications. Manufactured from premium-grade steel and engineered for durability, our C-Clamp Pliers ensure a firm grip on various materials while maintaining stability during use. Their heavy-duty construction and precision design make them suitable for demanding environments where secure clamping is essential.",
-    "images": [],
+    "images": [
+      "images/c_clamp_plier.jpeg"
+    ],
     "size table": [],
     "features": [
       "Strong C-clamp design for secure holding and clamping",
@@ -2365,7 +2484,9 @@
     "name": "Lock Grip Plier",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Lock Grip Pliers, designed for powerful gripping, clamping, and holding applications. Featuring a locking mechanism with an adjustable screw, these pliers securely lock onto workpieces, providing a firm grip and allowing hands-free operation for improved efficiency and precision. Manufactured from high-grade steel and engineered for strength and durability, our Lock Grip Pliers are built to withstand demanding industrial and workshop environments. They are ideal for gripping round, flat, and irregular-shaped objects, making them an essential tool for welding, fabrication, automotive repair, maintenance, and assembly work.",
-    "images": [],
+    "images": [
+      "images/lock_grip_plier.jpeg"
+    ],
     "size table": [],
     "features": [
       "Strong locking mechanism for secure and reliable gripping",
@@ -2391,7 +2512,9 @@
     "name": "Top Cutter",
     "category": "Cutters",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Top Cutters, designed for efficient cutting of wires, cables, pins, and other materials with precision and ease. Engineered with hardened cutting edges and robust construction, these cutters deliver clean, accurate cuts while requiring minimal effort, making them ideal for professional and industrial applications. Manufactured from high-grade steel and precision-crafted for durability and performance, our Top Cutters offer excellent cutting efficiency, strength, and long service life. Widely used in electrical, construction, automotive, engineering, and maintenance industries, they are an essential tool for cutting and trimming tasks.",
-    "images": [],
+    "images": [
+      "images/top_cutter.jpeg"
+    ],
     "size table": [],
     "features": [
       "Precision-hardened cutting edges for clean and accurate cuts",
@@ -2417,7 +2540,9 @@
     "name": "Tower Pincer",
     "category": "Pincers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Tower Pincers, designed for gripping, pulling, twisting, and cutting applications in construction, carpentry, and general maintenance work. Built with strong jaws and hardened cutting edges, these pincers provide excellent leverage and control, making them ideal for extracting nails, cutting wires, and handling various fastening tasks with ease. Manufactured from high-grade steel and engineered for durability, our Tower Pincers are designed to withstand demanding working conditions while delivering reliable performance and long service life. Their robust construction and ergonomic design make them a trusted choice for professionals across multiple industries.",
-    "images": [],
+    "images": [
+      "images/tower_pincer.jpeg"
+    ],
     "size table": [],
     "features": [
       "Strong jaws for gripping, pulling, and twisting applications",
@@ -2443,7 +2568,9 @@
     "name": "Cobbler Pincer",
     "category": "Pincers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Cobbler Pincers, specially designed for gripping, pulling, cutting, and removing nails, tacks, and fasteners in footwear manufacturing, leatherworking, upholstery, and general repair applications. Featuring strong jaws and precision cutting edges, these pincers provide excellent control, leverage, and durability for demanding professional use. Manufactured from high-grade steel and engineered for long-lasting performance, our Cobbler Pincers are designed to deliver a firm grip and smooth operation while withstanding rigorous working conditions. Their robust construction makes them an essential tool for cobblers, leather craftsmen, upholsterers, and industrial users.",
-    "images": [],
+    "images": [
+      " cobbler_pincer.png"
+    ],
     "size table": [],
     "features": [
       "Strong jaws for gripping and pulling nails, tacks, and fasteners",
@@ -2469,7 +2596,9 @@
     "name": "Carpenter Pincer",
     "category": "Pincers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Carpenter Pincers, designed for gripping, pulling, extracting nails, and cutting wires with maximum efficiency. Engineered for strength, durability, and precision, these pincers provide excellent leverage, making them an essential tool for carpentry, woodworking, construction, and maintenance applications. Manufactured from high-grade steel and fitted with hardened jaws and cutting edges, our Carpenter Pincers ensure a firm grip and smooth operation even under demanding working conditions. Their robust construction allows for easy nail extraction without damaging surrounding surfaces, making them a preferred choice for professional craftsmen and industrial users.",
-    "images": [],
+    "images": [
+      "images/carpenter_pincer.jpeg"
+    ],
     "size table": [],
     "features": [
       "Strong jaws for gripping and pulling nails, staples, and fasteners",
@@ -2495,7 +2624,9 @@
     "name": "Saw Set Plier",
     "category": "Pliers",
     "description": "At Jalota Tools Manufacturing, we manufacture and supply premium-quality Saw Set Pliers, designed for accurately setting the teeth of hand saws to ensure smooth cutting performance and extended blade life. Engineered for precision and durability, these pliers help maintain the correct tooth alignment, improving cutting efficiency and reducing blade binding during operation. Manufactured from high-grade steel and precision-engineered for reliable performance, our Saw Set Pliers are widely used by carpenters, woodworkers, saw maintenance professionals, and industrial users. Built to withstand regular workshop use, they provide consistent results and long service life.",
-    "images": [],
+    "images": [
+      "images/saw_set_plier.png"
+    ],
     "size table": [],
     "features": [
       "Designed for precise setting and alignment of saw teeth",

@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Logo & Tagline */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-              <img src="/logo.svg" alt="Jalota Tools" className="h-12 w-auto" />
+              <img src="/logo.svg" alt="Jalota Tools" className="w-52 sm:w-60 h-auto max-h-16 object-contain" />
             </Link>
             <p className="text-xs sm:text-sm text-[#CFCFCF] leading-relaxed max-w-xs">
               Precision engineering solutions for the industrial world. Built on a foundation of quality and innovation since 1988.
@@ -16,7 +16,9 @@ export default function Footer() {
             {/* Social Icons */}
             <div className="flex gap-4 pt-2">
               <a
-                href="#"
+                href="https://www.facebook.com/share/1GtoADEaL9/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 border border-[#CFCFCF]/10 flex items-center justify-center hover:bg-[#C8A04B] hover:text-[#000000] transition-colors"
                 aria-label="Facebook"
               >
@@ -25,16 +27,9 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="#"
-                className="w-10 h-10 border border-[#CFCFCF]/10 flex items-center justify-center hover:bg-[#C8A04B] hover:text-[#000000] transition-colors"
-                aria-label="Twitter"
-              >
-                <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.84 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
-                </svg>
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/jalotatoolsmanufacturing?stkn=MTE5aWFnczhjbzFrdg=="
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 border border-[#CFCFCF]/10 flex items-center justify-center hover:bg-[#C8A04B] hover:text-[#000000] transition-colors"
                 aria-label="Instagram"
               >
@@ -60,8 +55,8 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-[#C8A04B] font-bold text-[10px] sm:text-xs tracking-widest uppercase">Support</h4>
             <ul className="space-y-3 text-xs sm:text-sm text-[#CFCFCF]">
-              <li><a href="#" className="hover:text-[#C8A04B] transition-colors">E-Catalogue</a></li>
-              <li><Link href="/contact" className="hover:text-[#C8A04B] transition-colors">Custom Quotes</Link></li>
+              <li><Link href="/contact?tab=quote" className="hover:text-[#C8A04B] transition-colors">Request a Quote</Link></li>
+              <li><Link href="/contact?tab=quote" className="hover:text-[#C8A04B] transition-colors">Custom Quotes</Link></li>
               <li><a href="#" className="hover:text-[#C8A04B] transition-colors">Privacy Policy</a></li>
             </ul>
           </div>
@@ -84,12 +79,12 @@ export default function Footer() {
               </div>
             </div>
             <div className="pt-2">
-              <a
-                href="#"
+              <Link
+                href="/contact?tab=quote"
                 className="inline-block bg-transparent border border-[#C8A04B] hover:bg-[#C8A04B] text-[#C8A04B] hover:text-[#000000] font-bold text-[10px] tracking-wider uppercase px-4 py-2 transition-all duration-300"
               >
-                Download E-Catalogue
-              </a>
+                Request Quote
+              </Link>
             </div>
           </div>
         </div>

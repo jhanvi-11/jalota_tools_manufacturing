@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function AboutPage() {
   const stats = [
-    { value: "30+", label: "Years of Excellence" },
-    { value: "600+", label: "Precision Tools" },
-    { value: "12,000+", label: "Global Clients" },
+    { value: "25+", label: "Years of Excellence" },
+    { value: "50+", label: "Precision Tools" },
+    { value: "100+", label: "Global Clients" },
     { value: "ISO", label: "9001 Certified" },
   ];
 

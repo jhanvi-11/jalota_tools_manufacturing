@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-[#000000]/95 backdrop-blur-md border-b border-[#C8A04B]/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-20 md:h-24">
           {/* Mobile hamburger menu button */}
           <div className="flex items-center md:hidden">
             <button
@@ -35,7 +35,11 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-1 flex justify-center md:justify-start items-center">
             <Link href="/" className="flex items-center">
-              <img src="/logo.svg" alt="Jalota Tools" className="h-12 md:h-14 w-auto" />
+              <img
+                src="/logo.svg"
+                alt="Jalota Tools"
+                className="w-44 sm:w-52 md:w-64 lg:w-72 h-auto max-h-16 md:max-h-20 object-contain"
+              />
             </Link>
           </div>
 
@@ -57,15 +61,8 @@ export default function Navbar() {
             })}
           </nav>
 
-          {/* Right Download Button */}
-          <div className="flex items-center">
-            <a
-              href="#"
-              className="bg-[#C8A04B] hover:bg-[#E6C667] text-[#000000] font-bold text-[10px] sm:text-xs tracking-wider uppercase px-4 py-2 sm:px-5 sm:py-2.5 transition-all duration-300 active:scale-95 text-center"
-            >
-              E-Catalogue
-            </a>
-          </div>
+          {/* Mobile spacer to balance hamburger icon and keep logo centered */}
+          <div className="w-10 md:hidden" aria-hidden="true" />
         </div>
       </div>
 

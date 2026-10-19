@@ -56,12 +56,12 @@ export default function HomePage() {
             >
               Explore Products
             </Link>
-            <a
+            <Link
               className="border border-[#C8A04B] text-[#C8A04B] hover:bg-[#C8A04B] hover:text-[#000000] text-center py-4 px-8 font-bold uppercase tracking-widest text-xs transition-all duration-300 active:scale-95"
-              href="#"
+              href="/contact?tab=quote"
             >
-              Download E-Catalogue
-            </a>
+              Request Quote
+            </Link>
           </div>
         </div>
       </section>
@@ -120,15 +120,15 @@ export default function HomePage() {
               className="min-w-[280px] sm:min-w-[320px] bg-[#1A1A1A] border border-[#C8A04B]/10 flex flex-col justify-between snap-start group"
             >
               <div>
-                <div className="aspect-square bg-[#000000] p-6 flex items-center justify-center overflow-hidden border-b border-[#C8A04B]/10 relative">
+                <div className="aspect-square bg-[#000000] flex items-center justify-center overflow-hidden border-b border-[#C8A04B]/10 relative">
                   {product.images.length > 0 ? (
                     <img
                       alt={product.name}
-                      className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       src={product.images[0]}
                     />
                   ) : (
-                    <div className="w-full h-full flex flex-col items-center justify-center">
+                    <div className="w-full h-full flex flex-col items-center justify-center p-6">
                       <span className="material-symbols-outlined text-6xl text-[#C8A04B]/20">
                         construction
                       </span>
@@ -137,7 +137,7 @@ export default function HomePage() {
                       </span>
                     </div>
                   )}
-                  <div className="absolute top-4 left-4 bg-[#C8A04B] text-[#000000] px-2 py-0.5 text-[9px] font-bold tracking-wider uppercase font-heading">
+                  <div className="absolute top-4 left-4 z-10 bg-[#C8A04B] text-[#000000] px-2 py-0.5 text-[9px] font-bold tracking-wider uppercase font-heading">
                     {product.category}
                   </div>
                 </div>

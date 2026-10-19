@@ -1,12 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import ContactForm from "@/components/ContactForm";
 import QuoteForm from "@/components/QuoteForm";
 
-export default function ContactPage() {
-  // Tab State: "general" | "quote"
+function ContactPageContent() {
+  const searchParams = useSearchParams();
   const [activeTab, setActiveTab] = useState<"general" | "quote">("general");
+
+  useEffect(() => {
+    if (searchParams.get("tab") === "quote") {
+      setActiveTab("quote");
+    }
+  }, [searchParams]);
 
   return (
     <div className="min-h-screen pb-24">
@@ -65,8 +72,7 @@ export default function ContactPage() {
               Address
             </h3>
             <p className="text-xs text-[#CFCFCF] leading-relaxed">
-              Plot 44, Industrial Estate,
-              <br />
+              Waryana Industrial Complex, 102/1, Leather Complex Rd, Jalandhar, Punjab 144013              <br />
               Sector 12
             </p>
           </div>
@@ -116,10 +122,10 @@ export default function ContactPage() {
               Our Manufacturing HQ
             </p>
             <p className="font-heading text-xl sm:text-2xl font-black mt-2 uppercase">
-              Industrial Estate, Sector 12
+              Waryana Industrial Complex, 102/1, Leather Complex Rd, Jalandhar, Punjab 144013
             </p>
             <a
-              href="https://maps.google.com"
+              href="https://www.google.com/maps/place/Jalota+Tools+Manufacturing+Co./@31.3360413,75.5119874,17z/data=!3m1!4b1!4m6!3m5!1s0x391a458f49544e9b:0xeda50a50519f1097!8m2!3d31.3360413!4d75.5119874!16s%2Fg%2F11y0465hzl?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-block border border-[#C8A04B] hover:bg-[#C8A04B] text-[#C8A04B] hover:text-[#000000] px-6 py-3 font-bold text-[10px] tracking-wider uppercase transition-all duration-300"
@@ -130,5 +136,13 @@ export default function ContactPage() {
         </div>
       </main>
     </div>
+  );
+}
+
+export default function ContactPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[#0D0D0D]" />}>
+      <ContactPageContent />
+    </Suspense>
   );
 }

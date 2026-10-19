@@ -44,6 +44,30 @@ export function generateSlug(name: string): string {
 }
 
 /**
+ * Ensure image paths work seamlessly in Next.js public folder routing.
+ * Strips accidental "/public" prefixes and ensures a leading slash.
+ */
+function normalizeImagePath(path: string): string {
+  if (!path) return "";
+  const trimmed = path.trim();
+  if (
+    trimmed.startsWith("http://") ||
+    trimmed.startsWith("https://") ||
+    trimmed.startsWith("data:")
+  ) {
+    return trimmed;
+  }
+  let clean = trimmed.replace(/^\/?public\//, "/");
+  if (!clean.startsWith("/")) {
+    clean = `/${clean}`;
+  }
+  if (!clean.startsWith("/images/")) {
+    clean = `/images${clean}`;
+  }
+  return clean;
+}
+
+/**
  * Normalize a raw product record into the clean Product type.
  */
 function normalizeProduct(raw: RawProduct): Product {
@@ -52,7 +76,7 @@ function normalizeProduct(raw: RawProduct): Product {
     slug: generateSlug(raw.name),
     category: raw.category,
     description: raw.description,
-    images: raw.images ?? [],
+    images: (raw.images ?? []).map(normalizeImagePath).filter(Boolean),
     sizeTable: raw["size table"] ?? [],
     features: raw.features ?? [],
     // Map the "apllications" typo safely; fall back to "applications" if fixed later

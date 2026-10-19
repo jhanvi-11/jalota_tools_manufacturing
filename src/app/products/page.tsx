@@ -145,15 +145,15 @@ function ProductsContent() {
             {filteredProducts.map((product) => (
               <div key={product.slug} className="group flex flex-col justify-between">
                 <div>
-                  <div className="relative bg-[#1A1A1A] border border-[#C8A04B]/10 aspect-square overflow-hidden mb-6 flex items-center justify-center p-6 sm:p-8">
+                  <div className="relative bg-[#1A1A1A] border border-[#C8A04B]/10 aspect-square overflow-hidden mb-6 flex items-center justify-center">
                     {product.images.length > 0 ? (
                       <img
                         src={product.images[0]}
                         alt={product.name}
-                        className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                     ) : (
-                      <div className="w-full h-full flex flex-col items-center justify-center text-[#747878]">
+                      <div className="w-full h-full flex flex-col items-center justify-center text-[#747878] p-6 sm:p-8">
                         <span className="material-symbols-outlined text-6xl mb-2 text-[#C8A04B]/20">
                           construction
                         </span>
@@ -162,7 +162,7 @@ function ProductsContent() {
                         </span>
                       </div>
                     )}
-                    <div className="absolute top-4 left-4 bg-[#C8A04B] text-[#000000] px-2 py-0.5 text-[8px] font-bold tracking-wider uppercase font-heading">
+                    <div className="absolute top-4 left-4 z-10 bg-[#C8A04B] text-[#000000] px-2 py-0.5 text-[8px] font-bold tracking-wider uppercase font-heading">
                       {product.category}
                     </div>
                   </div>

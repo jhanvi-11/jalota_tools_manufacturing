@@ -287,15 +287,15 @@ export default async function ProductDetailPage({ params }: Props) {
                 href={`/products/${related.slug}`}
                 className="group flex flex-col"
               >
-                <div className="relative bg-[#1A1A1A] border border-[#C8A04B]/10 aspect-square overflow-hidden mb-4 flex items-center justify-center p-6">
+                <div className="relative bg-[#1A1A1A] border border-[#C8A04B]/10 aspect-square overflow-hidden mb-4 flex items-center justify-center">
                   {related.images.length > 0 ? (
                     <img
                       src={related.images[0]}
                       alt={related.name}
-                      className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   ) : (
-                    <div className="w-full h-full flex flex-col items-center justify-center text-[#747878]">
+                    <div className="w-full h-full flex flex-col items-center justify-center text-[#747878] p-6">
                       <span className="material-symbols-outlined text-5xl mb-2 text-[#C8A04B]/30">
                         construction
                       </span>
@@ -304,7 +304,7 @@ export default async function ProductDetailPage({ params }: Props) {
                       </span>
                     </div>
                   )}
-                  <div className="absolute top-3 left-3 bg-[#C8A04B] text-[#000000] px-2 py-0.5 text-[7px] font-bold tracking-wider uppercase font-heading">
+                  <div className="absolute top-3 left-3 z-10 bg-[#C8A04B] text-[#000000] px-2 py-0.5 text-[7px] font-bold tracking-wider uppercase font-heading">
                     {related.category}
                   </div>
                 </div>
