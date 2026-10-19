@@ -1,11 +1,8 @@
 import Link from "next/link";
-import Image from "next/image";
-import { getAllProducts, getAllCategories } from "@/lib/products";
+import { getAllCategories, getFeaturedProducts } from "@/lib/products";
 
 export default function HomePage() {
-  const allProducts = getAllProducts();
-  // Take the first 3 products as featured products
-  const featuredProducts = allProducts.slice(0, 3);
+  const featuredProducts = getFeaturedProducts();
 
   const allCategories = getAllCategories();
   const getIconForCategory = (catName: string) => {
@@ -112,12 +109,12 @@ export default function HomePage() {
           </h2>
         </div>
 
-        {/* Horizontal scroll grid */}
-        <div className="flex gap-6 overflow-x-auto px-6 sm:px-12 lg:px-24 pb-8 hide-scrollbar snap-x snap-mandatory max-w-7xl mx-auto">
+        {/* Featured Products Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 sm:px-12 lg:px-24 max-w-7xl mx-auto">
           {featuredProducts.map((product) => (
             <div
               key={product.slug}
-              className="min-w-[280px] sm:min-w-[320px] bg-[#1A1A1A] border border-[#C8A04B]/10 flex flex-col justify-between snap-start group"
+              className="bg-[#1A1A1A] border border-[#C8A04B]/10 hover:border-[#C8A04B]/40 transition-colors flex flex-col justify-between group"
             >
               <div>
                 <div className="aspect-square bg-[#000000] flex items-center justify-center overflow-hidden border-b border-[#C8A04B]/10 relative">

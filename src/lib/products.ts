@@ -97,6 +97,20 @@ export function getProductBySlug(slug: string): Product | undefined {
   return products.find((p) => p.slug === slug);
 }
 
+const FEATURED_SLUGS = [
+  "g-clamp-standard",
+  "saw-set-plier",
+  "2-leg-bearing-pullers",
+  "3-leg-bearing-pullers",
+];
+
+/** Get curated featured products. */
+export function getFeaturedProducts(): Product[] {
+  return FEATURED_SLUGS.map((slug) => getProductBySlug(slug)).filter(
+    (p): p is Product => p !== undefined
+  );
+}
+
 /** Get products in a given category (case-insensitive match). */
 export function getProductsByCategory(category: string): Product[] {
   return products.filter(
