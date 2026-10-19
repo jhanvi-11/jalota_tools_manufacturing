@@ -4,19 +4,21 @@ import React, { useEffect, useState } from "react";
 
 export default function WhatsAppButton() {
   const [mounted, setMounted] = useState(false);
-  const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
+  const rawNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "917900980096";
+  const cleanNumber = rawNumber.replace(/[^0-9]/g, "");
+  const formattedNumber = cleanNumber.length === 10 ? `91${cleanNumber}` : cleanNumber;
   const message = "Hi, I'd like to know more about your products.";
   
   // Format the URL
-  const waUrl = phoneNumber 
-    ? `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+  const waUrl = formattedNumber 
+    ? `https://wa.me/${formattedNumber}?text=${encodeURIComponent(message)}`
     : "#";
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  if (!mounted || !phoneNumber) return null;
+  if (!mounted || !formattedNumber) return null;
 
   return (
     <a

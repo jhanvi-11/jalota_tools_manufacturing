@@ -18,9 +18,16 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Jalota Tools | Precision Engineering & Industrial Excellence",
+  title: "Jalota Tools Manufacturing Co. | Precision Engineering & Industrial Excellence",
   description:
     "With over three decades of engineering excellence, Jalota Tools manufactures high-performance industrial instruments designed for peak productivity and maximum durability.",
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
 };
 
 export default function RootLayout({

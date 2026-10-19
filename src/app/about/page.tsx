@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "About Us | Jalota Tools Manufacturing",
+  description: "Learn about Jalota Tools' 25+ years of precision engineering heritage, ISO 9001 certified manufacturing, and global industrial excellence.",
+};
 
 export default function AboutPage() {
   const stats = [
